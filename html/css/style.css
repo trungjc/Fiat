@@ -6,12 +6,39 @@
 .bar-top .list-top {float:right;margin-bottom: 0;}
 .bar-top .list-top li a{color:#fff;text-transform: uppercase;font-weight: bold;line-height: 47px;}
 .bar-top .list-top li a i {font-size:16px;margin-right: 5px;}
-.header {margin: 10px 0;}
-.header .main-nav {float:right;margin:20px 0 0;}
-.header .main-nav li a{font-size:14px;color:#008fd0;text-transform: uppercase;font-weight: bold;}
-.header .main-nav li a:hover{font-size:14px;color:#f26522;}
-.header .main-nav li i {color:#008fd0;font-size:17px;}
-.header .logo {background: url('../img/logo.jpg') no-repeat top left;width: 262px;height: 70px;display: inline-block;text-indent: -9999px;}
+.header {
+    padding:10px 0;
+}
+.header .top-bar {
+    background:#fff;
+}
+
+.header .top-bar .top-bar-section ul li {
+    background: #fff;
+}
+.header .top-bar .top-bar-section li:not(.has-form) a:not(.button){
+    background: #fff;
+    padding:10px 15px;
+}
+
+.header .top-bar .top-bar-section ul li a {
+    color:#008fd0;
+    text-transform: uppercase;
+    font-size:14px;
+    font-weight: bold;
+}
+
+.header .top-bar-section li.active:not(.has-form) a:not(.button) {
+    color:#f26522;
+}
+.header .top-bar .name {
+    background: url('../img/logo.jpg') no-repeat top left;
+    width: 262px;
+    height: 70px;
+    display: inline-block;
+    text-indent: -9999px;
+}
+
 .block-quote {
     background: #e6e6e6;
     padding:40px 0px;
@@ -247,3 +274,37 @@
 .footer span {font-size:12px;}
 
 
+/****************** sign up *************************/
+.block-sign-up {
+    background: url('../img/bg-sign-up.jpg') no-repeat top center;
+    background-size: 100%;
+    padding-bottom:40px;
+    padding-top: 70px;
+}
+.block-sign-up h3 {
+    font-size: 32px;
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    padding-bottom: 20px;
+    color:#fff;
+    text-shadow: 0 2px 1px #4a4a4a;
+}
+
+.block-sign-up p {
+    font-size: 14px;
+    color:#fff;
+}
+
+.block-sign-up form .button {
+    background:#f26522;
+    color: #fff;
+    text-transform: uppercase;
+    padding:8px;
+}
+
+.block-sign-up form input[type='text'] {
+    margin-bottom: 25px;
+}
+
+
+/******** page blog ***********/
