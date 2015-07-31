@@ -263,6 +263,7 @@
 .footer ul {
     margin: 0;
     padding: 0;
+    float:right;
 }
 .footer ul li a {
     text-transform: uppercase;
@@ -310,7 +311,7 @@
 /******** page blog ***********/
 .wrap-post {
     background: #e6e6e6;
-     padding-top:80px;
+    padding-top:80px;
 }
 
 .item-post {
@@ -354,3 +355,38 @@
     font-size:14px;
     color:#333;
 } 
+
+
+/*************** responsive **********/
+@media only screen and (max-width: 1024px) { 
+    .block-quote {
+        padding: 30px 0;
+    }
+    .block-quote ul li {
+        margin-right: 0;
+    }
+    .feature-campaign {padding: 40px 0;}
+    .feature-campaign h3 {padding-bottom: 15px;}
+    .feature-campaign .panel ul li {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .block-campaign,.block-events {
+        background-size: cover;
+    }
+    .block-post h3 {padding-bottom: 15px;}
+}
+
+@media only screen and (max-width: 768px) and (min-width:640px) {
+    .feature-campaign .row .medium-3,.block-post .row .medium-4,.block-post  .medium-9,.block-post  .medium-3 {width:100%;}
+    .feature-campaign img,.block-post img{width: 100%;}
+    .footer {height: auto;}
+}
+@media only screen and (max-width: 640px) {
+    .block-campaign,.block-events {height: auto;padding-bottom: 20px;}
+    .block-quote h3 {text-align: center;}
+    .feature-campaign img,.block-post img{width: 100%;}
+    .footer {height: auto;text-align: center;}
+    .footer ul {float: none;}
+    .footer ul li {display: inline-block;float: none;}
+    }
