@@ -122,7 +122,7 @@
 .feature-campaign .panel p,.block-post .panel p {
     font-size:12px;
     color: #000;
-     padding:10px 10px 0 10px;
+    padding:10px 10px 0 10px;
 }
 .block-campaign {
     background: url('../img/bg-campaign.jpg') no-repeat center top;
@@ -196,7 +196,7 @@
     text-transform: uppercase;
     font-weight: bold;
     color: #fff;
-    
+
 }
 
 .block-events p {
@@ -308,3 +308,49 @@
 
 
 /******** page blog ***********/
+.wrap-post {
+    background: #e6e6e6;
+     padding-top:80px;
+}
+
+.item-post {
+    background:#fff;
+    padding-top:20px;
+    margin-bottom: 35px !important;
+}
+
+.item-post .time-post {
+    color:#fff;
+    background: #008fd0;
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-bottom: 0;
+}
+.item-post .time-post b {font-size:14px;}
+.item-post .count-share {
+    background: #e6e6e6;
+    font-size:10px;
+    color: #008fd0;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.item-post .count-share b {font-size:14px;}
+.item-post p {font-size:14px;line-height: 22px;}
+.item-post .info-author {margin-top:10px;}
+.item-post .info-author,.item-post .info-author p {font-size:12px;}
+.item-post  h3 {font-size: 22px;margin-top:10px;color:#333;}
+.wrap-social,.testimonial,.recent-post,.wrap-tags,.wrap-archive {
+    padding:19px;
+    background: #fff;
+    margin-bottom:40px;
+}
+
+.wrap-tags h3,.wrap-archive h3 {
+    font-size:14px;
+    color:#333;
+} 
