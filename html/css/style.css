@@ -92,9 +92,10 @@ font-family: 'Merriweather', serif;
 }
 
 .feature-campaign h3 {
-    font-size: 22px;
+    font-size: 25pt;
     color: #4c4b4b;
     padding-bottom: 45px;
+    font-family: 'Merriweather', serif;
 }
 
 .feature-campaign .panel {
@@ -399,6 +400,7 @@ font-family: 'Merriweather', serif;
 .wrap-post {
     background: #e6e6e6;
     padding-top:80px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .item-post {
@@ -431,7 +433,7 @@ font-family: 'Merriweather', serif;
 .item-post p {font-size:14px;line-height: 22px;}
 .item-post .info-author {margin-top:10px;}
 .item-post .info-author,.item-post .info-author p {font-size:12px;}
-.item-post  h3 {font-size: 22px;margin-top:10px;color:#333;}
+.item-post  h3 {font-size: 22px;margin-top:10px;color:#333; font-family: 'Open Sans', sans-serif;}
 .wrap-social,.testimonial,.recent-post,.wrap-tags,.wrap-archive {
     padding:19px;
     background: #fff;
@@ -442,7 +444,78 @@ font-family: 'Merriweather', serif;
     font-size:14px;
     color:#333;
 } 
+/************* blog home ************/
+.frm-quick-search {
+    background: #fff;
+    border:1px solid #a1a1a1;
+    margin-bottom: 40px;
+    padding:5px;
+}
+.frm-quick-search input[type="text"]{
+    background: none;
+    border:none;
+    margin-bottom: 0;
+    box-shadow: none;
+}
+.frm-quick-search a {
+    color:#333;
+    display: block;
+    margin-top: 5px;
+}
+.wrap-social  h3{
+    font-size:14px;
+    color:#666;
+    font-family: 'Open Sans', sans-serif;
+}
 
+.wrap-social  h3 a {
+    color:#008fd0;
+}
+.wrap-social .inline-list {
+    margin-bottom: 0;
+}
+.wrap-social .inline-list li{
+    margin-left:5px;
+}
+.wrap-social .inline-list li a i {
+    background: url('../img/ico-socail-blog.png') no-repeat;
+    display: inline-block;
+    height: 42px;
+    width: 42px;
+}
+.wrap-social .inline-list li a i.ico-social-facebook {background-position: 0 0;}
+.wrap-social .inline-list li a i.ico-social-linkedin {background-position: -46px 0;}
+.wrap-social .inline-list li a i.ico-social-twitter {background-position: -92px 0;}
+.wrap-social .inline-list li a i.ico-social-instagram {background-position: -138px 0;}
+.wrap-social .inline-list li a i.ico-social-pinterest {background-position: -184px 0;}
+.wrap-social .inline-list li a i.ico-meet-up {background-position: -230px 0;}
+.wrap-social .inline-list li a i.ico-social-youtube {background-position: -276px 0;}
+.testimonial p.msg{font-size: 13px;font-style:italic;}
+.testimonial p.author{font-size: 18px;text-align: right;text-transform: uppercase;margin-bottom: 0;}
+.testimonial span{color:#999;font-size: 11px;text-align: right;display: block;}
+.wrap-tags h3,.wrap-archive h3 {font-family: 'Open Sans', sans-serif;font-size:14px;text-transform: uppercase;}
+.wrap-tags ul,.wrap-archive ul {margin-left:0;}
+.wrap-tags ul li {float:left;list-style: none;margin-right: 5px;margin-bottom: 5px;}
+.wrap-tags ul li a {font-size: 12px;background: #f26522;color:#fff;padding:3px 7px;}
+.wrap-tags ul li a:hover {background: #f77a3f;}
+.wrap-archive ul li a i{
+    color:#f26522;
+    margin-right: 4px;
+    font-size:15px;
+}
+.wrap-archive ul li{list-style: none}
+.wrap-archive ul li a {font-size: 12px;color:#333;}
+.recent-post .tabs dd > a,.recent-post .tabs .tab-title > a{  padding: 5px 40px;font-family: 'Open Sans', sans-serif;font-size: 14px;}
+.recent-post .tabs dd.active a, .recent-post .tabs .tab-title.active a{background: #f26522;color:#fff;}
+.recent-post .tabs-content {margin-bottom: 0;}
+.recent-post .tabs-content section .list-post {list-style: none;margin-left:0;}
+.recent-post .tabs-content section .list-post li {border-bottom:1px solid #c2c2c2;padding-bottom:10px;padding-top:10px;float:left;width: 100%;box-sizing: border-box; }
+.recent-post .tabs-content section .list-post li:last-child {border-bottom: none;}
+.recent-post .tabs-content section .list-post li:first-child {padding-top:0px;}
+.recent-post .tabs-content section .list-post li a{float:left;margin-right:10px;margin-top: 5px;display: block;}
+.recent-post .tabs-content section .list-post li .block {font-family: 'Open Sans', sans-serif;width: 80%;float:left;}
+.recent-post .tabs-content section .list-post li .block p{font-size:12px;margin-bottom: 0;}
+.recent-post .tabs-content section .list-post li .block span{color:#959595;font-size:10px;font-style: italic;}
 
 /*************** responsive **********/
 @media only screen and (max-width: 1024px) { 
@@ -462,6 +535,7 @@ font-family: 'Merriweather', serif;
         background-size: cover;
     }
     .block-post h3 {padding-bottom: 15px;}
+    .block-sign-up {background-size: cover;}
 }
 @media only screen and (max-width:769px) {
     .top-bar .toggle-topbar a {color:#118dd6; font-size:46px;}
@@ -482,6 +556,9 @@ font-family: 'Merriweather', serif;
         width:100%;
         height: 100%;
     }
+    .item-post,.right-bar .row {margin:0 !important;}
+    .frm-quick-search {margin-top: 30px;}
+    
 }
 @media only screen and (max-width: 768px) and (min-width:640px) {
     .feature-campaign .row .medium-3,.block-post .row .medium-4,.block-post  .medium-9,.block-post  .medium-3 {width:100%;}
@@ -502,4 +579,8 @@ font-family: 'Merriweather', serif;
     .block-quote ul li {
         margin-right: -2px;
     }
+    .recent-post .tabs dd > a, .recent-post .tabs .tab-title > a {
+        padding: 5px 15px;
+    }
+    .recent-post .tabs-content section .list-post li .block{width: 75%;}
 }
