@@ -679,6 +679,63 @@ font-family: 'Merriweather', serif;
 .content-campaigninner .block-reward  span{font-family: 'Open Sans', sans-serif;color: #464646;font-size: 12px; }
 .content-campaigninner .block-reward .count .left{font-family: 'Work Sans', sans-serif;font-size: 48px;font-weight: 100;color:#008fd0;}
 .content-campaigninner .block-reward .count .right{margin-top: 40px;}
+.content-campaigninner .list-update {
+    list-style: none;
+    margin-left: 0;
+}
+
+.content-campaigninner .list-update li {
+    margin-bottom: 60px;
+}
+.content-campaigninner .list-update li span {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+.content-campaigninner .list-update li h4 {
+    font-size: 30px;
+    font-weight: 100;
+    font-family: 'Work Sans', sans-serif;
+    color:#484848;
+}
+.content-campaigninner .list-update li p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+.content-campaigninner .list-backer {
+    list-style: none;
+    margin-left:0;
+}
+.content-campaigninner .list-backer li {
+    border-bottom: 1px solid #e7e7e7;
+    padding:35px 0;
+    float:left;
+    width:100%;
+}
+.content-campaigninner .list-backer li img {
+    margin-right:15px;
+}
+.content-campaigninner .list-backer li p {
+    margin-top:20px;
+    font-family: 'Open Sans', sans-serif;
+    color: #999;
+    line-height: 20px;
+    font-size:14px;
+}
+.content-campaigninner .list-backer li p span {
+    font-weight: 600;
+    color:#484848;
+}
+
+.content-campaigninner .list-backer li p.price {
+    margin-top:25px;
+    font-size:26px;
+    color: #484848;
+}
+.content-campaigninner .list-backer li p.price span {font-size: 14px;padding-left: 10px;}
+
+
 .block-enhance {
     background: url('../img/bg-project.png')no-repeat top center;
     background-size: cover;
@@ -764,6 +821,9 @@ font-family: 'Merriweather', serif;
     .campaign-video {
         margin-bottom: 20px;
     }
+    .content-campaigninner .list-backer li:last-child {
+        margin-bottom: 30px;
+    }
 }
 @media only screen and (max-width: 768px) and (min-width:640px) {
     .feature-campaign .row .medium-3,.block-post .row .medium-4,.block-post  .medium-9,.block-post  .medium-3 {width:100%;}
@@ -792,4 +852,7 @@ font-family: 'Merriweather', serif;
     .package .graph .bottom, .package .graph .top {right: 10px;}
     .package .graph .item-graphic {left: -5px;}
     .package .graph .bar-process {margin-left: 30px;}
+    .content-campaigninner .list-backer li {
+        padding:15px 0;
+    }
 }
