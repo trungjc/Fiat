@@ -762,6 +762,111 @@ font-family: 'Merriweather', serif;
     font-weight: 600;
 }
 
+/************ create campaign *************/
+.block-create-campaign {
+    background: #e6e6e6;
+    padding-top:30px;
+}
+
+.block-create-campaign h2 {
+    color: #4c4b4b;
+    font-size: 40px;
+    font-family: 'Merriweather', serif;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.block-create-campaign h2 span {
+    font-size:16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #4c4b4b;
+}
+
+.block-create-campaign  .step {
+    background: #fff;
+    margin-bottom: 45px !important;
+}
+.block-create-campaign  .step h3 {
+    background: #008fd0;
+    color: #fff;
+    margin:0;
+    font-size:16px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 41px;
+    margin-bottom: 15px;
+}
+.block-create-campaign  .step h3 span {
+    background: #fff;
+    color: #008fd0;
+    padding:1px 7px;
+    margin-left:20px;
+    margin-right:10px;
+}
+
+.block-create-campaign  .step label {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+}
+.block-create-campaign  .step label.font-normal {
+    font-weight: 300;
+}
+.block-create-campaign  .step span {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+}
+.block-create-campaign  .step span.note {margin-top:-10px;display: inline-block;color:#636363;}
+
+.block-create-campaign  .step input[type="text"] {
+    border:1px solid #a1a1a1;
+    padding:10px;
+    height: auto;
+    box-shadow: none;
+    margin-top:10px;
+}
+.block-create-campaign  .step select {
+    margin-top:10px;
+}
+
+.sidebar-create-campaign {
+    background: #fff;
+    padding-bottom: 10px;
+    margin-bottom: 30px !important;
+}
+.sidebar-create-campaign h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    margin:0;
+    color:#333;
+    line-height: 41px;
+    text-indent: 20px;
+}
+.sidebar-create-campaign h3.need-help {
+    background: #f26522;
+    color:#fff;
+}
+
+.sidebar-create-campaign p {
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    padding:20px;
+    margin-bottom: 10px;
+}
+.sidebar-create-campaign p.collapse {
+    padding:0px 20px 20px 20px;
+    margin-bottom: 0;
+}
+
+.sidebar-create-campaign a {
+    color:#f26522;
+    font-family: 'Open Sans', sans-serif;
+    margin-left:15px;
+    font-size: 12px;
+}
 
 
 
