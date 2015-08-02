@@ -15,10 +15,10 @@ font-family: 'Merriweather', serif;
 .bar-top .list-top li a{
     color:#fff;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 300;
     line-height: 47px;
     font-family: 'Open Sans', sans-serif;
-    font-size:14pt;
+    font-size:14px;
 }
 .bar-top .list-top li a i {font-size:16px;margin-right: 5px;}
 .header {
@@ -39,8 +39,8 @@ font-family: 'Merriweather', serif;
 .header .top-bar .top-bar-section ul li a {
     color:#008fd0;
     text-transform: uppercase;
-    font-size:12pt;
-    font-weight: 700;
+    font-size:14px;
+    font-weight: 300;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -517,6 +517,206 @@ font-family: 'Merriweather', serif;
 .recent-post .tabs-content section .list-post li .block p{font-size:12px;margin-bottom: 0;}
 .recent-post .tabs-content section .list-post li .block span{color:#959595;font-size:10px;font-style: italic;}
 
+
+/******************campaign **************/
+.wrap-band {
+    background: #e6e6e6;
+    padding-top: 40px;
+}
+.top-band {
+    padding-bottom: 40px;
+}
+.top-band h3 {
+    font-size: 30px;
+    font-family: 'Merriweather', serif;
+    color:#484848;
+    margin-bottom: 0;
+    line-height: 40px;
+}
+
+.top-band span {
+    font-size: 12px;
+    color:#484848;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.top-band .btn-follow {
+    background: #b6b6b6;
+    color:#fff;
+    font-weight: 600;
+}
+.top-band .btn-follow i {
+    background: url('../img/ico-infi.png') no-repeat top left;
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.top-band .btn-back-proj {
+    background: #f26522;
+    font-weight: 600;
+}
+
+.package ul {
+    list-style: none;
+    margin-left: 0;
+}
+
+.package ul li {
+    margin-bottom: 55px;
+}
+.package ul li span{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color:#484848;
+}
+
+.package ul li p {
+    color: #008fd0;
+    font-family: "Work Sans",sans-serif;
+    font-size: 55px;
+    font-weight: 100;
+    line-height: 55px;
+    margin-bottom: 0;
+}
+
+.package .graph {
+    position: relative;
+    min-height: 340px;
+}
+.package .graph .item-graphic {
+    position: absolute;
+    top:80px;
+    left:10px;
+    background: url(../img/ico-rocket.png) no-repeat 0 0;
+    width: 29px;
+    height: 78px;
+}
+
+.package .graph .bar-process {
+    background: #f26522;
+    width: 7px;
+    border-radius: 3px;
+    min-height: 340px;
+    margin-left: 50px
+}
+
+.package .graph .bar-process div {
+    height: 100px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background: #666766;
+}
+.package .graph .bottom,.package .graph .top {
+    position: absolute;
+    right:0;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    color: #555555;
+}
+.package .graph .top {
+    top: 0;
+}
+.package .graph .bottom {
+    bottom: 0;
+}
+
+.content-campaigninner {
+    background: #fff;
+    padding-top:55px;
+}
+
+.content-campaigninner .info-package {
+    margin-left: 0;
+}
+.content-campaigninner .info-package li {margin-right:70px;margin-left:0;}
+.content-campaigninner .info-package li a {color:#484848;font-weight: 600;}
+.content-campaigninner .info-package  li.active a{color:#008fd0;}
+.content-campaigninner .info-package li a span{font-weight: 300;}
+.content-campaigninner h2 {font-family: 'Work Sans', sans-serif;font-size: 30px;font-weight: 100;color: #484848;}
+.content-campaigninner span.tags {
+    font-size:12px;
+    font-family: 'Open Sans', sans-serif;
+    color: #484848;
+}
+.content-campaigninner .socail-campaign li {margin-left:5px;}
+.content-campaigninner .socail-campaign li a i {
+    background: url('../img/ico-sprites.png') no-repeat;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+} 
+.content-campaigninner .socail-campaign {font-size:12px;color: #484848;line-height: 32px;margin-bottom: 0;}
+.content-campaigninner .socail-campaign li a i.ico-fb {background-position: 0 0;}
+.content-campaigninner .socail-campaign li a i.ico-tw {background-position: -38px 0;}
+.content-campaigninner .socail-campaign li a i.ico-gplus {background-position: -70px 0;}
+.content-campaigninner .socail-campaign li a i.ico-p {background-position: -108px 0;}
+.content-campaigninner .socail-campaign li a i.ico-r {background-position: -143px 0;}
+.content-campaigninner .socail-campaign li a i.ico-in {background-position: -179px 0;}
+.content-campaigninner .block-reward  {font-family: 'Open Sans', sans-serif;}
+.content-campaigninner .block-reward h3 {font-size: 18px;color:#434343;line-height: 30px;font-weight: 600;}
+.content-campaigninner .block-reward h3 i.ico-reward{
+    background: url('../img/ico-sprites.png') no-repeat 0 -37px;
+    height: 23px;
+    width: 32px;
+    display: inline-block;
+}
+
+.content-campaigninner .block-reward ul{
+    list-style: none;
+    margin-left:0;
+}
+
+.content-campaigninner .block-reward ul li {
+    background: #e6e6e6;
+    padding:5px 20px 10px 20px;
+    margin-bottom: 30px;
+}
+
+.content-campaigninner .block-reward ul li h4 {font-size: 18px;color: #434343}
+.content-campaigninner .block-reward ul li p {font-size: 14px;}
+.content-campaigninner .block-reward  span{font-family: 'Open Sans', sans-serif;color: #464646;font-size: 12px; }
+.content-campaigninner .block-reward .count .left{font-family: 'Work Sans', sans-serif;font-size: 48px;font-weight: 100;color:#008fd0;}
+.content-campaigninner .block-reward .count .right{margin-top: 40px;}
+.block-enhance {
+    background: url('../img/bg-project.png')no-repeat top center;
+    background-size: cover;
+}
+
+.block-enhance  {
+    font-family: 'Open Sans', sans-serif;
+    color:#fff;
+    padding-top:30px;
+    padding-bottom: 30px;
+}
+.block-enhance h3 {
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    color:#fff;
+}
+.block-enhance p {
+    font-size: 18px;
+    padding: 0px 20px;
+}
+.block-enhance a {
+    font-size: 16px;
+    background: #f26522;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*************** responsive **********/
 @media only screen and (max-width: 1024px) { 
     .block-quote {
@@ -558,7 +758,12 @@ font-family: 'Merriweather', serif;
     }
     .item-post,.right-bar .row {margin:0 !important;}
     .frm-quick-search {margin-top: 30px;}
-    
+    .top-band {
+        padding-bottom: 10px;
+    }
+    .campaign-video {
+        margin-bottom: 20px;
+    }
 }
 @media only screen and (max-width: 768px) and (min-width:640px) {
     .feature-campaign .row .medium-3,.block-post .row .medium-4,.block-post  .medium-9,.block-post  .medium-3 {width:100%;}
@@ -583,4 +788,8 @@ font-family: 'Merriweather', serif;
         padding: 5px 15px;
     }
     .recent-post .tabs-content section .list-post li .block{width: 75%;}
+    .package ul li p {font-size:45px}
+    .package .graph .bottom, .package .graph .top {right: 10px;}
+    .package .graph .item-graphic {left: -5px;}
+    .package .graph .bar-process {margin-left: 30px;}
 }
