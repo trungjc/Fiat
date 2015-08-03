@@ -803,12 +803,18 @@ font-family: 'Merriweather', serif;
     padding:1px 7px;
     margin-left:20px;
     margin-right:10px;
+    font-weight: 600;
 }
 
 .block-create-campaign  .step label {
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     font-weight: 600;
+    line-height: 2;
+}
+
+.block-create-campaign  .step .row {
+    margin-top:10px;
 }
 .block-create-campaign  .step label.font-normal {
     font-weight: 300;
@@ -825,10 +831,15 @@ font-family: 'Merriweather', serif;
     padding:10px;
     height: auto;
     box-shadow: none;
-    margin-top:10px;
 }
 .block-create-campaign  .step select {
     margin-top:10px;
+}
+.block-create-campaign  .step .btn-more-rewards {
+    background: #008fd0;
+    font-size: 14px;
+    padding: 7px 20px;
+    text-transform: uppercase;
 }
 
 .sidebar-create-campaign {
@@ -867,6 +878,8 @@ font-family: 'Merriweather', serif;
     margin-left:15px;
     font-size: 12px;
 }
+
+
 
 
 
@@ -929,6 +942,8 @@ font-family: 'Merriweather', serif;
     .content-campaigninner .list-backer li:last-child {
         margin-bottom: 30px;
     }
+    .block-create-campaign .step label.font-normal {width: 80%;}
+    .block-create-campaign .step .fund {float:left;margin-top:4px;}
 }
 @media only screen and (max-width: 768px) and (min-width:640px) {
     .feature-campaign .row .medium-3,.block-post .row .medium-4,.block-post  .medium-9,.block-post  .medium-3 {width:100%;}
