@@ -248,7 +248,7 @@ font-family: 'Merriweather', serif;
     color:#fff;
     padding-bottom: 20px;
 }
-.sub-footer::before {
+.sub-footer::before,.sub-footer-campaign::before {
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
     border-top: 20px solid #fff;
@@ -259,6 +259,9 @@ font-family: 'Merriweather', serif;
     position: relative;
     top: 0;
     width: 0;
+}
+.sub-footer-campaign::before {
+    border-top: 20px solid #e6e6e6;
 }
 .sub-footer h3 {
     font-size:12pt;
@@ -853,6 +856,30 @@ font-family: 'Merriweather', serif;
 }
 .block-create-campaign .last-row {padding-left:0;padding-right:0}
 
+/*************** checkout **********/
+.block-checkout .note-info {
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    margin-left: -22px;
+    margin-bottom: 5px;
+}
+
+.block-checkout h2 {
+    margin-bottom: 25px;
+}
+
+.block-checkout .step i {color:red}
+.block-checkout .step .note-info-2 {
+    color: #484848;
+    display: block;
+    font-size: 11px;
+    font-style: italic;
+    font-weight: 300;
+    margin-top: -5px;
+    line-height: 15px;
+    margin-bottom: 5px;
+}
 
 .sidebar-create-campaign {
     background: #fff;
@@ -890,13 +917,6 @@ font-family: 'Merriweather', serif;
     margin-left:15px;
     font-size: 12px;
 }
-
-
-
-
-
-
-
 
 
 
@@ -960,7 +980,7 @@ font-family: 'Merriweather', serif;
     .block-create-campaign .step label.font-normal {width: 90%;   margin-right: 0;}
     .block-create-campaign .step .fund {float:left;margin-top:4px;}
     .block-create-campaign .last-row { padding-left: 1.375em;padding-right: 1.375em;margin-top: -15px;}
-    
+
 }
 @media only screen and (max-width: 768px) and (min-width:640px) {
     .feature-campaign .row .medium-3,.block-post .row .medium-4,.block-post  .medium-9,.block-post  .medium-3 {width:100%;}
@@ -998,6 +1018,6 @@ font-family: 'Merriweather', serif;
     }
     .block-create-campaign .check-term {
         float:left;
-        
+
     }
 }
