@@ -808,7 +808,7 @@ font-family: 'Merriweather', serif;
 
 .block-create-campaign  .step label {
     font-family: 'Open Sans', sans-serif;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 600;
     line-height: 2;
 }
@@ -841,6 +841,18 @@ font-family: 'Merriweather', serif;
     padding: 7px 20px;
     text-transform: uppercase;
 }
+
+.block-create-campaign .btn-sbm-campaign {
+    background: #f26522;
+    text-transform: uppercase;
+}
+
+.block-create-campaign .font-italic {
+    font-style: italic;
+    font-size: 12px;
+}
+.block-create-campaign .last-row {padding-left:0;padding-right:0}
+
 
 .sidebar-create-campaign {
     background: #fff;
@@ -942,8 +954,13 @@ font-family: 'Merriweather', serif;
     .content-campaigninner .list-backer li:last-child {
         margin-bottom: 30px;
     }
-    .block-create-campaign .step label.font-normal {width: 80%;}
+    .block-create-campaign .step {
+        margin:0;
+    }
+    .block-create-campaign .step label.font-normal {width: 90%;   margin-right: 0;}
     .block-create-campaign .step .fund {float:left;margin-top:4px;}
+    .block-create-campaign .last-row { padding-left: 1.375em;padding-right: 1.375em;margin-top: -15px;}
+    
 }
 @media only screen and (max-width: 768px) and (min-width:640px) {
     .feature-campaign .row .medium-3,.block-post .row .medium-4,.block-post  .medium-9,.block-post  .medium-3 {width:100%;}
@@ -974,5 +991,13 @@ font-family: 'Merriweather', serif;
     .package .graph .bar-process {margin-left: 30px;}
     .content-campaigninner .list-backer li {
         padding:15px 0;
+    }
+    .block-create-campaign .ck-term {
+        width: 80%;
+        margin-top: -7px;
+    }
+    .block-create-campaign .check-term {
+        float:left;
+        
     }
 }
