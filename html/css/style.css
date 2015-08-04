@@ -437,7 +437,8 @@ font-family: 'Merriweather', serif;
 .item-post .info-author {margin-top:10px;}
 .item-post .info-author,.item-post .info-author p {font-size:12px;}
 .item-post  h3 {font-size: 22px;margin-top:10px;color:#333; font-family: 'Open Sans', sans-serif;}
-.wrap-social,.testimonial,.recent-post,.wrap-tags,.wrap-archive {
+.wrap-social,.testimonial,.recent-post,.wrap-tags,.wrap-archive,.wrap-porfolio,
+.wrap-feature-campaign{
     padding:19px;
     background: #fff;
     margin-bottom:40px;
@@ -1061,7 +1062,127 @@ font-family: 'Merriweather', serif;
     padding:7px 20px;
     text-transform: uppercase;
 }
+.post-share ul{float:right;margin:0;}
+.post-share li {margin-left:0;margin-right:5px;font-size: 12px;}
+.post-share li a{
+    background: url('../img/ico-sprites.png') no-repeat;
+    width: 16px;
+    height: 16px;
+    color:#898989;
+}
+.item-post .info-post {
+    font-size: 12px;
+    color:#898989;
+}
+.post-share {color:#898989;}
+.post-share li {line-height: 20px;}
+.post-share li a.ico-fb {background-position: -70px -41px;}
+.post-share li a.ico-tw {background-position: -87px -41px;}
+.post-share li a.ico-in {background-position: -104px -41px;}
+.post-share li a.ico-gplus {background-position: -122px -41px;}
+.post-share li a.ico-p {background-position: -139px -41px;}
+.post-share li a.ico-r {background-position: -156px -41px;}
+.post-share li a.ico-mail {background-position: -174px -41px;}
+.tags-bottom-post,.link-category  {font-size: 12px;}
+.tags-bottom-post li {margin-left: 0;line-height: 20px;}
+.tags-bottom-post li i{font-size: 16px;}
+.tags-bottom-post li:first-child {margin-right: 10px;}
+.opt-bottom-post {
+    padding-top:50px;
+}
+.block-comment {font-family: 'Open Sans', sans-serif;}
+.block-comment h4 {
+    font-size: 24px;
+    font-family: 'Merriweather', serif;
+    color:#4c4b4b;
+    padding-bottom: 20px;
+}
+.block-comment h4 a{
+    color: #008fd0;
+}
+.block-comment ul {list-style: none;margin-left:0;}
+.block-comment ul li {
+    border-bottom: 1px solid #d9d9d9;
+    width: 100%;
+    float: left;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
 
+.block-comment ul li:first-child {padding-top:0;}
+.block-comment ul li:last-child {border-bottom: none;}
+.block-comment ul li a.user-comment{float: left;width: 13%;margin-right: 20px;margin-top:10px;}
+.block-comment ul li a.user-comment img {width:100%;}
+.block-comment ul li .detail-comment{float: left;width: 80%;}
+.block-comment ul li .detail-comment h5 {
+    font-size: 12px;
+    color:#999999;
+}
+.block-comment ul li .detail-comment h5 span{
+    color:#222;
+}
+
+.block-comment ul li .detail-comment p {
+    font-size:13px;
+    color: #4c4c4c;
+}
+.block-comment ul li .detail-comment h5 a{
+    color:#999999;
+    float: right;
+}
+.block-comment ul li ul li {border-bottom: none;}
+.ico-reply {
+    background: url('../img/ico-sprites.png') no-repeat -40px -74px;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-bottom: -4px;
+}
+.block-comment ul li ul {
+    margin-left: 16%;
+}
+.wrap-porfolio h4 {font-size: 14px;color: #222;}
+.wrap-porfolio h4 a{color: #008fd0;display: block;}
+.wrap-porfolio p{color: #898989;font-size: 12px;margin-bottom: 0}
+.wrap-porfolio img{margin-right: 15px;margin-top: 10px;}
+.wrap-feature-campaign ul{margin-bottom: 0px;}
+.wrap-feature-campaign h3 {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #333;
+}
+.wrap-feature-campaign ul {
+    list-style: none;
+    margin-left: 0;
+}
+.wrap-feature-campaign ul li{
+    border-bottom: 1px solid #c2c2c2;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.wrap-feature-campaign ul li:first-child {
+    padding-top:0;
+}
+.wrap-feature-campaign ul li:last-child {
+    border-bottom: none;
+}
+
+.wrap-feature-campaign ul li h4 {
+    color: #333;
+    font-size: 22px;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+.wrap-feature-campaign ul li span {
+    font-size: 14px;
+    color: #999;
+}
+.wrap-feature-campaign ul li p {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
 
 
 /*************** responsive **********/
@@ -1103,7 +1224,8 @@ font-family: 'Merriweather', serif;
         width:100%;
         height: 100%;
     }
-    .item-post,.right-bar .row {margin:0 !important;}
+    .right-bar .row {margin:0 !important;}
+    .item-post {margin:0 0 25px 0 !important;}
     .frm-quick-search {margin-top: 30px;}
     .top-band {
         padding-bottom: 10px;
@@ -1121,6 +1243,7 @@ font-family: 'Merriweather', serif;
     .block-create-campaign .step .fund {float:left;margin-top:4px;}
     .block-create-campaign .last-row { padding-left: 1.375em;padding-right: 1.375em;margin-top: -15px;}
     .block-create-campaign h2,.block-checkout .note-info {padding-left: 22px;}
+    .opt-bottom-post {padding-bottom: 20px;}
 
 }
 @media only screen and (max-width: 768px) and (min-width:640px) {
@@ -1136,12 +1259,21 @@ font-family: 'Merriweather', serif;
     .footer ul {float: none;}
     .footer ul li {display: inline-block;float: none;}
     .bar-top .list-top li a {font-size:14px;}
+    .post-share ul {float:none;}
+    .link-category {margin-bottom: 17px;margin-left:2px;}
 }
 @media only screen and (max-width: 480px) {
     .block-checkout .step .list-avatar li {
         margin-bottom: 20px;
         width: 100%;
     }
+}
+@media only screen and (max-width:360px) {
+    .block-comment ul li ul {
+        clear: both;
+    }
+    .block-comment ul li .detail-comment {width:100%}
+    .block-comment ul li a.user-comment {width: 25%;}
 }
 @media only screen and (max-width: 320px) {
     .block-quote ul li {
@@ -1164,6 +1296,6 @@ font-family: 'Merriweather', serif;
     }
     .block-create-campaign .check-term {
         float:left;
-
     }
+
 }
