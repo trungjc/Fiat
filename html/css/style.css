@@ -848,6 +848,7 @@ font-family: 'Merriweather', serif;
 .block-create-campaign .btn-sbm-campaign {
     background: #f26522;
     text-transform: uppercase;
+    margin-bottom:60px;
 }
 
 .block-create-campaign .font-italic {
@@ -880,6 +881,121 @@ font-family: 'Merriweather', serif;
     line-height: 15px;
     margin-bottom: 5px;
 }
+.block-checkout .step .list-avatar {
+    margin-top:10px;
+}
+.block-checkout .step .list-avatar li {
+    margin-left: 0;
+}
+.block-checkout .step .list-avatar li span{
+    margin-top: -5px;
+    float: left;
+}
+.block-checkout .step .list-avatar li input[type="radio"] {
+    float:left;
+}
+.block-checkout .step .list-avatar li:first-child input[type="radio"] {
+    float:left;
+}
+.block-checkout .step .note-ssl {font-size: 12px;margin-bottom: 20px;}
+.block-checkout .step .note-ssl i{color:#333;}
+.block-checkout .step .card-number i.card {
+    position: relative;
+}
+.block-checkout .step .card-number i.card {
+    position: absolute;
+    right: 7px;
+    top: -11px;
+    width: 150px;
+    height: 30px;
+    background: url('../img/ico-sprites.png') no-repeat -221px -107px; 
+}
+.block-checkout .step .bottom-link {
+    font-size: 12px;
+    margin-top: -10px;
+    float:left;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.block-checkout .step .bottom-link:hover {text-decoration: none;}
+.block-checkout .last-row h4 {
+    font-size: 20px;
+    color:#333;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.block-summary {
+    background: #fff;
+    padding-bottom: 20px;
+    position: relative;
+    top: 20px;
+}
+.block-summary hr {
+    margin: 15px 0;
+}
+.block-summary h3 {
+    color:#fff;
+    background: #008fd0;
+    height: 41px;
+    line-height: 41px;
+    margin-top: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-indent: 20px;
+    font-weight: 600;
+}
+
+.block-summary h4 {
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+    color:#333;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+
+.block-summary span {font-size:12px;color:#555}
+.block-summary .purchase-price {
+    font-size: 34px;
+    line-height: 26px;
+}
+.block-summary .purchase-price small {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #959595;
+}
+
+.block-summary .opt-purchase {
+    font-size: 12px;
+    color:#008fd0;
+    margin-top: 40px;
+}
+.block-summary h5 {
+    color:#464646;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.block-summary h5 small {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #959595;
+    font-weight: 300;
+}
+
+.block-summary p {
+    font-size: 12px;
+    color:#555555;
+}
+
+.block-summary .txt-bold {
+    font-size:20px;
+    font-weight: 600;
+}
+
 
 .sidebar-create-campaign {
     background: #fff;
@@ -980,6 +1096,7 @@ font-family: 'Merriweather', serif;
     .block-create-campaign .step label.font-normal {width: 90%;   margin-right: 0;}
     .block-create-campaign .step .fund {float:left;margin-top:4px;}
     .block-create-campaign .last-row { padding-left: 1.375em;padding-right: 1.375em;margin-top: -15px;}
+    .block-create-campaign h2,.block-checkout .note-info {padding-left: 22px;}
 
 }
 @media only screen and (max-width: 768px) and (min-width:640px) {
@@ -996,7 +1113,12 @@ font-family: 'Merriweather', serif;
     .footer ul li {display: inline-block;float: none;}
     .bar-top .list-top li a {font-size:14px;}
 }
-
+@media only screen and (max-width: 480px) {
+    .block-checkout .step .list-avatar li {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+}
 @media only screen and (max-width: 320px) {
     .block-quote ul li {
         margin-right: -2px;

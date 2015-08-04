@@ -112,9 +112,9 @@
                                         </label>
                                     </div>
                                     <div class="large-12 columns">
-                                        <ul class="inline-list">
+                                        <ul class="inline-list list-avatar">
                                             <li>
-                                                <input type="radio"/><label>Upload avatar</label>
+                                                <input type="radio"/><label><span>Upload avatar</span></label>
                                             </li>
                                             <li>
                                                 <input type="radio"/><label><img src="img/avatar-1.jpg"/></label>
@@ -129,14 +129,6 @@
                                                 <input type="radio"/><label><img src="img/avatar-4.jpg"/></label>
                                             </li>
                                         </ul>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="large-6 columns">
-                                        <label>First name<i>*</i>
-                                            <small class="note-info-2">We will use this to personalize your account experience</small>
-                                            <input type="text" />
-                                        </label>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -163,14 +155,15 @@
                                 <div class="row">
                                     <div class="large-12 columns">
                                         <small class="note-info-2">Important text about secure credit card payment goes here. E.g. You can make paymens using SSL with confidence. We have a secured SSL encrypted service, a leading payment gateway since  2009, to accept credit cards payments safely and securely for our purchasers.</small>
-                                        <p><i class="fi-lock"></i>This is a secure SSL encrypted payment</p>
+                                        <p class="note-ssl"><i class="fi-lock"></i>This is a secure SSL encrypted payment</p>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="large-6 columns">
-                                        <label>Card number<i>*</i>
+                                        <label class="card-number">Card number<i>*</i>
                                             <small class="note-info-2">Enter the 16 digits on the front of your credit card</small>
                                             <input type="text" placeholder="Card Number" />
+                                            <i class="card"></i>
                                         </label>
                                     </div>
                                 </div>
@@ -192,9 +185,9 @@
                                 <div class="row">
                                     <div class="large-6 columns">
                                         <label>Expiry date (MM/YY)<i>*</i>
-                                            <select><option>01</option></select>
-                                            <select><option>01</option></select>
                                         </label>
+                                        <div class="large-6 columns"><select><option>01</option></select></div>
+                                        <div class="large-6 columns"><select><option>01</option></select></div>
                                     </div>
                                 </div>
                             </div>
@@ -233,19 +226,19 @@
                                 <div class="row">
                                     <div class="large-6 columns">
                                         <label>State / Province
-                                              <select><option>Ohio</option></select>
+                                            <select><option>Ohio</option></select>
                                         </label>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="large-3 columns">
                                         <label>Zip / Postal Code
-                                              <input type="text" placeholder="Zip or Post code" />
+                                            <input type="text" placeholder="Zip or Post code" />
                                         </label>
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="large-12 columns"><a href="#">Copy to shipping address</a></div>
+                                    <div class="large-12 columns"><a href="#" class="bottom-link">Copy to shipping address</a></div>
                                 </div>
                             </div>
                         </div>
@@ -283,25 +276,25 @@
                                 <div class="row">
                                     <div class="large-6 columns">
                                         <label>State / Province
-                                              <select><option>Ohio</option></select>
+                                            <select><option>Ohio</option></select>
                                         </label>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="large-3 columns">
                                         <label>Zip / Postal Code
-                                              <input type="text" placeholder="Zip or Post code" />
+                                            <input type="text" placeholder="Zip or Post code" />
                                         </label>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="large-12 columns">
                                         <input type="checkbox" class="fund" id="backer02">
-                                        <label class="font-normal" for="backer02">No rewards, donations only.</label>
+                                        <label class="font-normal" for="backer02">I accept the <a href="#">terms and agreements.</a></label>
                                     </div>
                                     <div class="large-12 columns">
                                         <input type="checkbox" class="fund" id="backer02">
-                                        <label class="font-normal" for="backer02">No rewards, donations only.</label>
+                                        <label class="font-normal" for="backer02">I would like to learn more about physics, and wish to receive Fiat Physica’s monthly newsletter</label>
                                     </div>
                                 </div>
                             </div>
@@ -318,11 +311,33 @@
                 <div class="large-4 large-offset-1 columns">
                     <div class="row block-summary collapse">
                         <div class="large-12 columns">
-                            <h3>REWARD PURCHASE SUMMARY</h3>
-                            <div class="row">
+                            <h3>reward purchase summary</h3>
+                            <div class="row ">
                                 <div class="large-12 columns">
                                     <h4>Train Ambassadors for Telescopes to Tanzania</h4>
                                     <span>by Macedonion Research Society</span>
+                                    <div class="row collapse">
+                                        <div class="large-8 columns purchase-price">
+                                            <small>pledged amount</small><br/>
+                                            $1000
+                                        </div>
+                                        <div class="large-4 columns opt-purchase"><a href="#">Edit</a>&nbsp;|&nbsp;<a href="#">Remove</a></div>
+                                    </div>
+                                    <hr/>
+                                    <h5><small>SELECTED REWARD</small><br/>Our Eternal Gratitude + Digital Photo Pack (LIMITED TO 1,000)</h5>
+                                    <p>Thank You! Your name will go on our Thank You Wall to be displayed on the Astronomers Without Borders website and Facebook Page.
+
+                                        Laser-etched glass cube with 3D representations of the cosmic web and ILP logo, Invitation to lunch with winner (in Paris, transportation not included), 20-minute skype session with awardee, USB key, personalized postcard from awardee, subscription to our newsletter containing updates about members</p>
+                                    <hr/>
+                                    <div class="row collapse">
+                                        <div class="large-6 small-6 columns">Donation amount:</div>
+                                        <div class="large-6 small-6 columns text-right">$1000.00</div>
+                                    </div>
+                                    <hr/>
+                                    <div class="row collapse">
+                                        <div class="large-6 small-6 columns"><span class="txt-bold">Total:</span></div>
+                                        <div class="large-6 small-6 columns text-right"><span class="txt-bold">$1000.00</span></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
