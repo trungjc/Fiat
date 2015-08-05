@@ -271,8 +271,8 @@ padding:10px 25px;text-transform: uppercase;}
     padding-left:45px;
     padding-right:45px;
     margin:30px 0px 30px 0;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
 }
 
 
@@ -356,19 +356,19 @@ padding:10px 25px;text-transform: uppercase;}
 }
 .sub-footer .inline-list li a i {
     font-size:36px;
-    background: url('../img/ico-socail-home.png') no-repeat;
+    background: url('../img/ico-sprites.png') no-repeat;
     width: 33px;
     height: 33px;
     display: inline-block;
 }
 
-.sub-footer .inline-list li a i.ico-social-facebook {background-position: 0 0;}
-.sub-footer .inline-list li a i.ico-social-linkedin {background-position: -37px 0;}
-.sub-footer .inline-list li a i.ico-social-twitter {background-position: -72px 0;}
-.sub-footer .inline-list li a i.ico-social-instagram {background-position: -108px 0;}
-.sub-footer .inline-list li a i.ico-social-pinterest {background-position: -144px 0;}
-.sub-footer .inline-list li a i.ico-meet-up {background-position: -180px 0;}
-.sub-footer .inline-list li a i.ico-social-youtube {background-position: -216px 0;}
+.sub-footer .inline-list li a i.ico-social-facebook {background-position: -224px -1px;}
+.sub-footer .inline-list li a i.ico-social-linkedin {background-position: -261px -1px;}
+.sub-footer .inline-list li a i.ico-social-twitter {background-position: -297px -1px;}
+.sub-footer .inline-list li a i.ico-social-instagram {background-position: -333px -1px;}
+.sub-footer .inline-list li a i.ico-social-pinterest {background-position: -369px -1px;}
+.sub-footer .inline-list li a i.ico-meet-up {background-position: -406px 0;}
+.sub-footer .inline-list li a i.ico-social-youtube {background-position: -442px -1px;}
 .sub-footer .frm-bottom a.button {
     background:#f26522;
     border-top-right-radius: 4px;
@@ -517,18 +517,18 @@ padding:10px 25px;text-transform: uppercase;}
     margin-left:5px;
 }
 .wrap-social .inline-list li a i {
-    background: url('../img/ico-socail-blog.png') no-repeat;
+    background: url('../img/ico-sprites.png') no-repeat;
     display: inline-block;
     height: 42px;
     width: 42px;
 }
-.wrap-social .inline-list li a i.ico-social-facebook {background-position: 0 0;}
-.wrap-social .inline-list li a i.ico-social-linkedin {background-position: -46px 0;}
-.wrap-social .inline-list li a i.ico-social-twitter {background-position: -92px 0;}
-.wrap-social .inline-list li a i.ico-social-instagram {background-position: -138px 0;}
-.wrap-social .inline-list li a i.ico-social-pinterest {background-position: -184px 0;}
-.wrap-social .inline-list li a i.ico-meet-up {background-position: -230px 0;}
-.wrap-social .inline-list li a i.ico-social-youtube {background-position: -276px 0;}
+.wrap-social .inline-list li a i.ico-social-facebook {background-position: -223px -47px;}
+.wrap-social .inline-list li a i.ico-social-linkedin {background-position: -269px -47px;}
+.wrap-social .inline-list li a i.ico-social-twitter {background-position: -315px -47px;}
+.wrap-social .inline-list li a i.ico-social-instagram {background-position: -361px -47px;}
+.wrap-social .inline-list li a i.ico-social-pinterest {background-position: -407px -47px;}
+.wrap-social .inline-list li a i.ico-meet-up {background-position: -454px -47px;}
+.wrap-social .inline-list li a i.ico-social-youtube {background-position: -499px -47px;}
 .testimonial p.msg{font-size: 13px;font-style:italic;}
 .testimonial p.author{font-size: 18px;text-align: right;text-transform: uppercase;margin-bottom: 0;}
 .testimonial span{color:#999;font-size: 11px;text-align: right;display: block;}
@@ -765,15 +765,28 @@ padding:10px 25px;text-transform: uppercase;}
 .content-campaigninner .list-backer li p span {
     font-weight: 600;
     color:#484848;
+    
 }
 
 .content-campaigninner .list-backer li p.price {
     margin-top:25px;
     font-size:26px;
     color: #484848;
+    font-family: 'Work Sans', sans-serif;
 }
 .content-campaigninner .list-backer li p.price span {font-size: 14px;padding-left: 10px;}
-
+.content-campaigninner .detail-campaign h3 {font-family: 'Open Sans', sans-serif;font-size: 18px;font-weight: 400;color:#333;}
+.content-campaigninner .detail-campaign p {font-family: 'Open Sans', sans-serif;font-size: 14px;font-weight: 300;}
+.content-campaigninner .detail-campaign img {margin-bottom: 10px;}
+.info-project-leader {
+    background: #e6e6e6;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.info-project-leader h3 {color: #333;padding:10px;font-size: 18px;}
+.info-project-leader h3 i{color: #333;font-size: 23px;margin-right:5px;}
+.info-project-leader ul {list-style: none;}
+.info-project-leader ul li{font-size: 14px;color:#484848;line-height: 25px;}
 
 .block-enhance {
     background: url('../img/bg-project.png')no-repeat top center;
@@ -788,7 +801,7 @@ padding:10px 25px;text-transform: uppercase;}
 }
 .block-enhance h3 {
     font-size: 30px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Merriweather', serif;
     color:#fff;
 }
 .block-enhance p {
