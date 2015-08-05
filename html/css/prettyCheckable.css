@@ -1,0 +1,93 @@
+.clearfix:before,.clearfix:after
+{
+	content:"";
+	display:table
+}
+.clearfix:after
+{
+	clear:both
+}
+.clearfix
+{
+	*zoom:1
+}
+.prettycheckbox,.prettyradio
+{
+	display:inline-block;
+	padding:0;
+	margin:0
+}
+.prettycheckbox>a,.prettyradio>a
+{
+	height:14px;
+	width:14px;
+	display:block;
+	float:left;
+	cursor:pointer;
+	margin:0;
+	background:url('../img/ico-sprites.png')
+}
+.prettycheckbox>a:focus,.prettyradio>a:focus
+{
+	outline:0 none
+}
+.prettycheckbox label,.prettyradio label
+{
+	display:block;
+	float:left;
+	margin:-5px 5px;
+	cursor:pointer
+}
+.prettycheckbox a.disabled,.prettycheckbox label.disabled,.prettyradio a.disabled,.prettyradio label.disabled
+{
+	cursor:not-allowed
+}
+.prettycheckbox>a
+{
+	background-position:-66px -113px;
+}
+.prettycheckbox>a:focus
+{
+	background-position:-66px -113px;
+}
+.prettycheckbox>a.checked
+{
+	background-position:-66px -130px;
+}
+.prettycheckbox>a.checked:focus
+{
+	background-position:-66px -130px;
+}
+.prettycheckbox>a.checked.disabled
+{
+	background-position:-150px 0
+}
+.prettycheckbox>a.disabled
+{
+	background-position:-120px 0
+}
+.prettyradio>a
+{
+	background-position:-45px -114px
+}
+.prettyradio>a:focus
+{
+	background-position:-45px -114px
+}
+.prettyradio>a.checked
+{
+	background-position:-45px -129px
+}
+.prettyradio>a.checked:focus
+{
+	background-position:-45px -129px
+}
+.prettyradio>a.checked.disabled
+{
+	background-position:-330px 0
+}
+.prettyradio>a.disabled
+{
+	background-position:-300px 0
+}
+

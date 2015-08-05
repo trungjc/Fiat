@@ -8,7 +8,9 @@
         <link rel="stylesheet" href="css/style.css" />
         <link rel="stylesheet" href="css/foundation-icons.css" />
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300|Work+Sans:100,300|Merriweather:300,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/prettyCheckable.css" />
         <script src="js/vendor/modernizr.js"></script>
+        
     </head>
     <body>
         <div class="bar-top">
@@ -114,19 +116,19 @@
                                     <div class="large-12 columns">
                                         <ul class="inline-list list-avatar">
                                             <li>
-                                                <input type="radio"/><label><span>Upload avatar</span></label>
+                                                <input type="radio" class="upload-avatar"  id="upload-avatar" name="answer" /><label for="upload-avatar"><span>Upload avatar</span></label>
                                             </li>
                                             <li>
-                                                <input type="radio"/><label><img src="img/avatar-1.jpg"/></label>
+                                                <input type="radio" class="upload-avatar-1" id="upload-avatar-1"/><label for="upload-avatar-1"></label><img class="left" src="img/avatar-1.jpg"/>
                                             </li>
                                             <li>
-                                                <input type="radio"/><label><img src="img/avatar-2.jpg"/></label>
+                                                <input type="radio" class="upload-avatar-2" id="upload-avatar-2" /><label for="upload-avatar-2"></label><img src="img/avatar-2.jpg"/>
                                             </li>
                                             <li>
-                                                <input type="radio"/><label><img src="img/avatar-3.jpg"/></label>
+                                                <input type="radio" class="upload-avatar-3" id="upload-avatar-3"/><label for="upload-avatar-3"></label><img src="img/avatar-3.jpg"/>
                                             </li>
                                             <li>
-                                                <input type="radio"/><label><img src="img/avatar-4.jpg"/></label>
+                                                <input type="radio" class="upload-avatar-4" id="upload-avatar-4"/><label for="upload-avatar-4"></label><img src="img/avatar-4.jpg"/>
                                             </li>
                                         </ul>
                                     </div>
@@ -287,13 +289,13 @@
                                         </label>
                                     </div>
                                 </div>
-                                <div class="row">
+                                <div class="row pad-b20">
                                     <div class="large-12 columns">
-                                        <input type="checkbox" class="fund" id="backer02">
-                                        <label class="font-normal" for="backer02">I accept the <a href="#">terms and agreements.</a></label>
+                                        <input type="checkbox" class="fund-1" id="backer01">
+                                        <label class="font-normal" for="backer01">I accept the</label><a href="#" class="link-agr-terms">terms and agreements.</a>
                                     </div>
                                     <div class="large-12 columns">
-                                        <input type="checkbox" class="fund" id="backer02">
+                                        <input type="checkbox" class="fund-2" id="backer02">
                                         <label class="font-normal" for="backer02">I would like to learn more about physics, and wish to receive Fiat Physica’s monthly newsletter</label>
                                     </div>
                                 </div>
@@ -415,8 +417,19 @@
         </div>
         <script src="js/vendor/jquery.js"></script>
         <script src="js/foundation.min.js"></script>
+        <script src="js/prettyCheckable.js"></script>
         <script>
             $(document).foundation();
+            $(document).ready(function() {
+                $('input.upload-avatar').prettyCheckable({});
+                $('input.upload-avatar-1').prettyCheckable({});
+                $('input.upload-avatar-2').prettyCheckable({});
+                $('input.upload-avatar-3').prettyCheckable({});
+                $('input.upload-avatar-4').prettyCheckable({});
+                $('input.check-term').prettyCheckable({});
+                $('input.fund-1').prettyCheckable({});
+                $('input.fund-2').prettyCheckable({});
+            });
         </script>
     </body>
 </html>
