@@ -171,7 +171,7 @@ font-family: 'Merriweather', serif;
 }
 
 .btn-more {background: #f26522;color:#fff;
-padding:10px 25px;text-transform: uppercase;}
+           padding:10px 25px;text-transform: uppercase;}
 .item-campaign .info-item-campaign p  {font-size:16px;margin-bottom: 1px;color:#fff;padding: 0}
 .item-campaign .info-item-campaign p span {font-size:12px;color:#fff;}
 .item-campaign .info-item-campaign p b {font-size:26px;font-weight: 600}
@@ -765,7 +765,7 @@ padding:10px 25px;text-transform: uppercase;}
 .content-campaigninner .list-backer li p span {
     font-weight: 600;
     color:#484848;
-    
+
 }
 
 .content-campaigninner .list-backer li p.price {
@@ -1248,6 +1248,120 @@ padding:10px 25px;text-transform: uppercase;}
 
 .title-events span {font-size:14px;font-family: "Open Sans",sans-serif;}
 
+/*************************** step campaign *****************/
+.step-wellcome,.step-hold-on {
+    background: #e6e6e6;
+    margin-bottom: 49px;
+}
+.step-wellcome h3,.step-hold-on h3 {
+    font-size: 30px;
+    font-family: "Merriweather",serif;
+    font-weight: 100;
+    text-align: center;
+    color: #484848;
+    padding: 50px 75px 20px 75px;
+}
+
+.step-wellcome p,.step-hold-on p {
+    font-family: "Open Sans",sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    margin-bottom: 0;
+    padding-bottom: 45px;}
+.step-wellcome ul {
+    list-style: none; 
+    margin-left: 60px;
+    margin-right: 40px;
+}
+.step-wellcome ul li{font-size: 18px;font-weight: 100;font-family: "Open Sans",sans-serif;}
+.step-wellcome ul li span{
+    color: #008fd0;
+    float: left;
+    font-family: "Work Sans",sans-serif;
+    font-size: 55px;
+    font-weight: 100;
+    margin-right: 30px;
+    margin-top: -20px;
+    width: 5%;
+}
+.step-wellcome ul li p {
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+
+.step-wellcome .button,.step-hold-on .button {
+    margin-bottom: 40px;
+    margin-top: 10px;
+    background: #f26522;
+    padding:15px 100px;
+    font-weight: 600;
+}
+.step-hold-on form {
+    margin-left: 60px;
+    margin-right: 40px;
+}
+.step-hold-on form input[type="text"],.step-hold-on form input[type="password"] {
+    border-color: #a1a1a1;
+    box-shadow: none;
+}
+
+.step-hold-on form .prettycheckbox label {margin: -2px 5px;font-size: 12px;}
+.step-hold-on form .has-pretty-child  {font-family: 'Open Sans', sans-serif;font-weight: 400;}
+.step-hold-on form .has-pretty-child  .labelright  { float: left;margin-top: 8px;margin-bottom: 20px;}
+.step-hold-on form .link  {color:#008fd0;text-decoration: underline;font-size: 12px;}
+.step-hold-on form .link:hover  {text-decoration: none;}
+.step-hold-on form .button  {text-decoration: none;}
+.header-diy-campaign {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.header-diy-campaign h2{font-family: 'Merriweather', serif;font-weight: 100;font-size: 30px;color: #4c4b4b;}
+.header-diy-campaign p{font-family: 'Open Sans', sans-serif;font-weight: 100;font-size: 18px}
+.frm-diy-campaign .row {background: #e6e6e6;margin-bottom: 10px;}
+.frm-diy-campaign input[type="text"] {
+    border-color: #a1a1a1;
+    box-shadow: none;
+    vertical-align: middle;
+    margin-top: 20px;
+}
+.frm-diy-campaign select {margin-top: 20px;}
+
+.frm-diy-campaign .row label {font-family: 'Open Sans', sans-serif;font-size:12px;}
+.frm-diy-campaign .row label b {font-size:13px;color: #484848;}
+.frm-diy-campaign .row .prettyradio label{width: 90%;}
+.frm-diy-campaign .row .prettyradio > a{margin: 0 10px 0 0;}
+.frm-diy-campaign .row .has-pretty-child {margin-top:15px;margin-bottom: 10px;}
+.btn-return,.btn-continue,.btn-prev,.btn-save {padding-top:10px;padding-bottom: 10px;background: #a1a1a1;font-family: 'Open Sans', sans-serif;width: 47%;font-size:16px;font-weight: 600;margin-top:20px}
+.btn-return {margin-right: 30px;}
+.btn-continue{background: #f26522;float:right;}
+.btn-prev,.btn-save {font-size: 14px;}
+.btn-prev i,.btn-save i{font-size: 20px;margin-right: 5px;}
+.block-help::before {
+    right: 100%;
+    top: 10%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-right-color: #e6e6e6;
+    border-width: 12px;
+}
+.block-help {background: #e6e6e6;position: relative;padding:15px;}
+.block-help h3 {font-size: 13px;font-weight: 600;font-family: 'Open Sans', sans-serif;}
+.block-help h3 i {font-size: 20px;}
+.block-help p,.block-help a {font-size: 12px;font-weight: 300;font-family: 'Open Sans', sans-serif;}
+.block-help a {color: #008fd0}
+.block-help p {margin-bottom: 10px;}
+.block-help-01 {top:120px;}
+
+
+
+
+
+
+
 /*************** responsive **********/
 @media only screen and (max-width: 1024px) { 
     .title-events {margin-left: 22px;}
@@ -1310,6 +1424,21 @@ padding:10px 25px;text-transform: uppercase;}
     .opt-bottom-post {padding-bottom: 20px;}
     .block-summary {top:0;margin-bottom: 20px !important;}
     .block-summary .opt-purchase {text-align: left;}
+    .step-wellcome h3 {padding: 50px 25px 20px;}
+    .step-wellcome ul,.step-hold-on form  {margin-left: 40px;}
+    .step-wellcome ul li {width: 100%;clear: both;}
+    .step-wellcome ul li p { font-size: 14px;}
+    .frm-diy-campaign .row {margin:0 0 10px 0;}
+    .frm-diy-campaign input[type="text"] {margin-top: 0;}
+    .frm-diy-campaign .row label {margin-bottom: 5px;}
+    .header-diy-campaign h2,.header-diy-campaign p {padding-left: 22px;padding-right:22px;}
+    .block-help-01 {top:10px;}
+    .btn-return, .btn-continue, .btn-prev, .btn-save {width: 42%;font-size: 16px;}
+    .btn-return,.btn-prev { margin-left: 22px;}
+    .btn-continue,.btn-save { margin-right: 22px;}
+    .btn-prev { margin-right: 10px;}
+    .btn-save {float:right;}
+
 }
 @media only screen and (max-width: 768px) and (min-width:640px) {
     .feature-campaign .row .medium-3,.block-post .row .medium-4,.block-post  .medium-9,.block-post  .medium-3 {width:100%;}
@@ -1339,6 +1468,11 @@ padding:10px 25px;text-transform: uppercase;}
     }
     .block-comment ul li .detail-comment {width:100%}
     .block-comment ul li a.user-comment {width: 25%;}
+    .step-wellcome .button, .step-hold-on .button {padding: 15px 60px;}
+    .step-wellcome ul, .step-hold-on form {margin-left: 20px;margin-right:20px;}
+    .btn-return, .btn-continue, .btn-prev, .btn-save {width: 40%;font-size: 12px;}
+    .btn-return, .btn-prev {margin-left: 12px;}
+    .frm-diy-campaign .row .prettyradio label {width: 85%;}
 }
 @media only screen and (max-width: 320px) {
     .block-quote ul li {
@@ -1362,5 +1496,8 @@ padding:10px 25px;text-transform: uppercase;}
     .block-create-campaign .check-term {
         float:left;
     }
-
+    .step-hold-on form .has-pretty-child .labelright {margin-bottom: 0;}
+    .step-hold-on form .link {font-size:11px;}
+    .step-wellcome h3, .step-hold-on h3 { font-size: 27px;}
+    .btn-prev i, .btn-save i {display: block;}
 }
