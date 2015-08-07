@@ -3,11 +3,12 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>diy campaign 00</title>
+        <title>diy campaign 05</title>
         <link rel="stylesheet" href="css/foundation.css" />
         <link rel="stylesheet" href="css/style.css" />
         <link rel="stylesheet" href="css/foundation-icons.css" />
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300|Work+Sans:100,300|Merriweather:300,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/prettyCheckable.css" />
         <script src="js/vendor/modernizr.js"></script>
     </head>
     <body>
@@ -48,30 +49,69 @@
         </div>
         <div class="step-process">
             <div class="row">
-                <div class="large-12 columns">
-                    <ul>
-                        <li class="active"><i></i>Wellcome</li>
-                        <li>Basics</li>
-                        <li>Story</li>
-                        <li>Rewards</li>
-                        <li>Contact</li>
-                        <li>Submit</li>
-                    </ul>
-                </div>
+                <div class="large-12 columns">process</div>
+            </div>
+        </div>
+        <div class="row collapse">
+            <div class="large-7 columns header-diy-campaign">
+                <h2>You’re nearly there! Just a few more details.</h2>
+                <p>Personalize your campaign by telling people who you are and how to get in touch with you if they have further questions. </p>
             </div>
         </div>
         <div class="row">
-            <div class="large-7 large-centered columns step-wellcome">
-                <h3>Welcome to your new campaign!</h3>
-                <div class="row"><div class="large-8 large-centered columns"><p class="text-center">Before you get ready to launch, make sure you have met the requirements on our checklist.</p></div></div>
-                <div class="row">
-                    <ul>
-                        <li><span>1</span><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elite. Aenean commodo ligula eget dolor.</p></li>
-                        <li><span>2</span><p>Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</p></li>
-                        <li><span>3</span><p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam ipsum.</p></li>
-                    </ul>
-                    <div class="large-12 columns text-center"><a href="#" class="button">I’m ready!</a></div>
+            <div class="large-7 columns">
+                <form class="frm-diy-campaign">
+                    <div class="row">
+                        <div class="large-4 columns">
+                            <label class="left inline" for="left-label-inline-1">
+                                <b>Campaign leader</b><br/>
+                                You can either enter your full name or name of the organization in charge of the campaign.
+                            </label>
+                        </div>
+                        <div class="large-8 columns">
+                            <input type="text" placeholder="e.g. The Theoretical Physics Foundation" id="left-label-inline-1">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="large-4 columns">
+                            <label class="left inline" for="left-label-inline-2">
+                                <b>Primary email</b>
+                            </label>
+                        </div>
+                        <div class="large-8 columns">
+                            <input type="text" placeholder="youremail@example.com" id="left-label-inline-2">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="large-4 columns">
+                            <label class="left inline" for="left-label-inline-3">
+                                <b>Campaign location</b>
+                            </label>
+                        </div>
+                        <div class="large-8 columns">
+                            <input type="text" placeholder="Seattle, Washington, USA" id="left-label-inline-3">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="large-4 large-offset-1 columns">
+                <div class="block-help">
+                    <h3><i class="fi-lightbulb"></i>Important notes to take</h3>
+                    <p>Part of every creator’s job is earning their backers’ trust, especially backers who don’t personally know them. It’s up to you to make the case that you can successfully bring your project to life. Present your qualifications and share links that help reinforce them.
+
+                    </p>
+                    <a href="#">Learn more</a>
                 </div>
+            </div>
+        </div>
+        <div class="row collapse">
+            <div class="large-7 columns">
+                <a href="#" class="button btn-return">Return to previous</a>
+                <a href="#" class="button btn-continue">Continue to story</a> 
+            </div>
+            <div class="large-4 large-offset-1 columns">
+                <a href="#" class="button btn-prev"><i class="fi-eye"></i>Preview</a>
+                <a href="#" class="button btn-save"><i class="fi-save"></i>Save draft</a> 
             </div>
         </div>
         <div class="sub-footer">
@@ -143,8 +183,13 @@
         </div>
         <script src="js/vendor/jquery.js"></script>
         <script src="js/foundation.min.js"></script>
+        <script src="js/prettyCheckable.js"></script>
         <script>
             $(document).foundation();
+            $(document).ready(function() {
+                $('input.left-label-inline-4').prettyCheckable({});
+                $('input.left-label-inline-5').prettyCheckable({});
+            });
         </script>
     </body>
 </html>

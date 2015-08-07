@@ -1326,12 +1326,26 @@ font-family: 'Merriweather', serif;
 }
 .frm-diy-campaign select {margin-top: 20px;}
 
-.frm-diy-campaign .row label {font-family: 'Open Sans', sans-serif;font-size:12px;}
+.frm-diy-campaign .row label {font-family: 'Open Sans', sans-serif;font-size:12px;margin-top: 10px;}
 .frm-diy-campaign .row label b {font-size:13px;color: #484848;}
-.frm-diy-campaign .row .prettyradio label{width: 90%;}
+.frm-diy-campaign .row .prettyradio label{width: 90%;margin-top: -3px;}
 .frm-diy-campaign .row .prettyradio > a{margin: 0 10px 0 0;}
 .frm-diy-campaign .row .has-pretty-child {margin-top:15px;margin-bottom: 10px;}
 .btn-return,.btn-continue,.btn-prev,.btn-save {padding-top:10px;padding-bottom: 10px;background: #a1a1a1;font-family: 'Open Sans', sans-serif;width: 47%;font-size:16px;font-weight: 600;margin-top:20px}
+.frm-diy-campaign .row textarea {box-shadow: none;margin-top:20px;height: 120px;border-color:#a1a1a1;}
+.frm-diy-campaign .row .btn-add-video {font-family: 'Open Sans', sans-serif;font-size:13px;font-weight: 600;padding:10px 30px;}
+.frm-diy-campaign .row .btn-add-video i {font-size:15px;margin-right:5px;}
+.frm-diy-campaign .row .label-frm-diy {
+    margin-top: 15px;
+}
+.frm-diy-campaign .row .inner-input {
+    margin-top:10px;
+    margin-bottom: 5px;
+}
+.note-inner-frm {width: 80%;font-family: 'Open Sans', sans-serif;font-size:13px;font-weight: 400;}
+.note-inner-frm small {font-size: 12px;}
+.inner-frm {padding-top:10px;}
+.title-video-preview {margin-top:40px;float:left;}
 .btn-return {margin-right: 30px;}
 .btn-continue{background: #f26522;float:right;}
 .btn-prev,.btn-save {font-size: 14px;}
@@ -1355,11 +1369,110 @@ font-family: 'Merriweather', serif;
 .block-help a {color: #008fd0}
 .block-help p {margin-bottom: 10px;}
 .block-help-01 {top:120px;}
+.block-help-02 {top:375px;}
+.block-help-03 {top:611px;}
+.block-help-04 {top:965px;}
+.block-help-05 {top:995px;}
+.upload-thumb {
+    background: #fff;
+    border: 1px dotted #a1a1a1;
+    display: block;
+    font-family: "Open Sans",sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    height: 120px;
+    line-height: 30px;
+    margin-top: 20px;
+    padding-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+.ico-thumb {
+    background: url('../img/ico-sprites.png') no-repeat -88px -121px;
+    height: 42px;
+    width: 48px;
+    display: inline-block;
+}
 
+.img-preview {margin-top:20px;margin-bottom: 20px;}
+.title-img-preview {float: left; margin-top: 10px;}
+.row-quantity .has-pretty-child{margin-top:0 !important;}
+.row-quantity .has-pretty-child .labelright  {
+    margin-top: 10px;
+    width: 100%;
+}
+.row-quantity .has-pretty-child .labelright label {
+    font-family: "Open Sans",sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    width: 92%;
+    line-height: 20px;
+    margin-top:0;
+}
 
+.row-quantity .has-pretty-child span {
+    color: #484848;
+    display: block;
+    font-family: "Open Sans",sans-serif;
+    font-size: 12px;
+    margin-left: 19px;
+    margin-bottom: 10px;
+}
+.order-column {
+    background: #d6d6d6;
+    height: 429px;
+    position: relative;
+    font-family: "Open Sans",sans-serif;
+    color:#484848;
+    font-size: 14px;
+    padding-top:20px;
+}
+.order-column span {
+    display: block;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 56px;
+    color: #008fd0;
+    font-weight: 100;
+    margin-top: -15px;
+}
+.order-column a{
+    position: absolute;
+    bottom: 10px;
+    left: 22px;
+    font-family: "Open Sans",sans-serif;
+    color:#484848;
+    font-size: 13px;
+    font-weight: 400;
+}
 
+.order-column a i {margin-right:5px;}
+.step-submit {
+    text-align: center;
+     background: #e6e6e6;
+     padding:90px 40px 40px 40px;
+     margin:45px 0;
+}
 
+.step-submit h3 {
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+    font-weight: 100;
+    color: #4c4b4b;
+}
 
+.step-submit p {
+    font-size: 18px;
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.step-process {
+    background: #e6e6e6;
+    z-index: 2;
+}
+.step-process ul {
+    list-style: none;
+}
 
 
 /*************** responsive **********/
@@ -1432,13 +1545,15 @@ font-family: 'Merriweather', serif;
     .frm-diy-campaign input[type="text"] {margin-top: 0;}
     .frm-diy-campaign .row label {margin-bottom: 5px;}
     .header-diy-campaign h2,.header-diy-campaign p {padding-left: 22px;padding-right:22px;}
-    .block-help-01 {top:10px;}
+    .block-help {margin-bottom: 10px;}
+    .block-help-01,.block-help-02,.block-help-03,.block-help-04,.block-help-05 {top:auto;margin-bottom: 10px;}
     .btn-return, .btn-continue, .btn-prev, .btn-save {width: 42%;font-size: 16px;}
     .btn-return,.btn-prev { margin-left: 22px;}
     .btn-continue,.btn-save { margin-right: 22px;}
     .btn-prev { margin-right: 10px;}
     .btn-save {float:right;}
-
+    .upload-thumb {font-size: 12px;}
+    .order-column {height: 150px;}
 }
 @media only screen and (max-width: 768px) and (min-width:640px) {
     .feature-campaign .row .medium-3,.block-post .row .medium-4,.block-post  .medium-9,.block-post  .medium-3 {width:100%;}
@@ -1473,6 +1588,7 @@ font-family: 'Merriweather', serif;
     .btn-return, .btn-continue, .btn-prev, .btn-save {width: 40%;font-size: 12px;}
     .btn-return, .btn-prev {margin-left: 12px;}
     .frm-diy-campaign .row .prettyradio label {width: 85%;}
+    .row-quantity .has-pretty-child .labelright label { width: 89%;}
 }
 @media only screen and (max-width: 320px) {
     .block-quote ul li {
