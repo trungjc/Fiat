@@ -7,6 +7,21 @@ font-family: 'Merriweather', serif;
 
 
 /************* style home **************/
+::-webkit-input-placeholder {
+  color: #4d4d4d;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #4d4d4d;
+}
+:-ms-input-placeholder {
+  color: #4d4d4d;
+}
+:-moz-placeholder ,select{ /* Firefox 18- */
+  color: #4d4d4d;
+}
+.frm-comment input ,.frm-comment textarea{
+	text-transform: uppercase;
+}
 .bar-top {
     background:#008fd0;
     height:47px;
@@ -466,7 +481,7 @@ font-family: 'Merriweather', serif;
     padding-bottom: 5px;
     padding-top: 5px;
 }
-
+.item-post {font-size:14px;}
 .item-post .count-share b {font-size:14px;}
 .item-post p {font-size:14px;line-height: 22px;}
 .item-post .info-author {margin-top:10px;}
@@ -1097,7 +1112,9 @@ font-family: 'Merriweather', serif;
     background: #e6e6e6;
     padding-top: 45px;
 }
-
+.inner-post p {
+	margin-bottom:10px;
+}
 .frm-comment input[type="text"],.frm-comment textarea{
     box-shadow: none;
     border-color:#a1a1a1;
@@ -1113,7 +1130,7 @@ font-family: 'Merriweather', serif;
 }
 
 .frm-comment .btn-sbm-comment {
-    background: #dfdfdf;
+    background: #a1a1a1;
     padding:7px 20px;
     text-transform: uppercase;
 }
