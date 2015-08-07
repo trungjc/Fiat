@@ -147,7 +147,7 @@ font-family: 'Merriweather', serif;
     padding:10px 10px 0 10px;
     font-family: 'Open Sans', sans-serif;
 }
-.feature-campaign .sl-category {width:70%}
+.feature-campaign .sl-category {width:70%;background: url('../img/ico-dropdown.png') no-repeat top right;}
 .feature-campaign .item-campaign {margin-bottom: 40px;}
 .item-campaign .info-item-campaign {
     background: rgba(242, 101, 34, 0.8);
@@ -1523,7 +1523,10 @@ font-family: 'Merriweather', serif;
     left:35%;
     top:-45px;
 }
-
+.pagination {margin-left: 0;}
+.pagination li {height: auto !important;}
+.pagination li a{color:#333!important;margin-left: 0;font-size: 12px;font-family: 'Open Sans', sans-serif;font-weight: 600!important;border-radius: 0px !important}
+.pagination li.active a {border:1px solid #a1a1a1;background: #fff;}
 /*************** responsive **********/
 @media only screen and (max-width: 1024px) { 
     .title-events {margin-left: 22px;}
