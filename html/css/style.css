@@ -50,7 +50,9 @@ font-family: 'Merriweather', serif;
     background: #fff;
     padding:10px 15px;
 }
-
+.header .top-bar .top-bar-section li:last-child a {
+    padding-right: 0 !important;
+}
 .header .top-bar .top-bar-section ul li a {
     color:#008fd0;
     text-transform: uppercase;
@@ -138,21 +140,28 @@ font-family: 'Merriweather', serif;
 
 .feature-campaign .panel ul {
     background: #e6e6e6;
-    padding:5px 0px 5px 0px;
+    padding:8px 0px 5px 0px;
+	text-align: center;
 }
 
 .feature-campaign .panel ul li {
-    margin-left:10px;
+    display: inline-block;
+    float: none;
+    font-size: 10px;
+    margin-left: 10px;
     margin-right: 10px;
-    font-size:10px;
     text-align: center;
+	line-height: 18px;
 }
-
+.feature-campaign .panel .inline-list br {
+	line-height: 0;
+}
 .feature-campaign .panel ul li span {
     font-size: 17px;
     font-weight: bold;
     color: #008fd0;
     font-style: normal;
+	padding-left:0;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -181,6 +190,7 @@ font-family: 'Merriweather', serif;
 
 .item-campaign ul.inline-list {margin-bottom: 0;}
 .item-campaign:hover .info-item-campaign{ opacity: 1;}
+
 .mrgt-40 {
     margin-top:40px;
 }
@@ -190,6 +200,10 @@ font-family: 'Merriweather', serif;
 .item-campaign .info-item-campaign p  {font-size:16px;margin-bottom: 1px;color:#fff;padding: 0}
 .item-campaign .info-item-campaign p span {font-size:12px;color:#fff;}
 .item-campaign .info-item-campaign p b {font-size:26px;font-weight: 600}
+.item-campaign .intro-img {
+	display: block;
+}
+
 .ico-atom {
     background: url('../img/ico-sprites.png') no-repeat -77px -67px;
     width: 46px;
@@ -249,6 +263,7 @@ font-family: 'Merriweather', serif;
 .block-post .panel p {
     padding-top:15px;
 }
+
 .block-events {
     background: url('../img/bg-event.jpg') no-repeat top right;
     background-size: 100%;
@@ -797,6 +812,7 @@ font-family: 'Merriweather', serif;
     background: #e6e6e6;
     margin-top: 60px;
     margin-bottom: 40px;
+	padding: 40px;
 }
 .info-project-leader h3 {color: #333;padding:10px;font-size: 18px;}
 .info-project-leader h3 i{color: #333;font-size: 23px;margin-right:5px;}
@@ -1356,6 +1372,7 @@ font-family: 'Merriweather', serif;
 .frm-diy-campaign .row .label-frm-diy {
     margin-top: 15px;
 }
+
 .frm-diy-campaign .row .inner-input {
     margin-top:10px;
     margin-bottom: 5px;
@@ -1468,7 +1485,7 @@ font-family: 'Merriweather', serif;
 .step-submit {
     text-align: center;
     background: #e6e6e6;
-    padding:90px 40px 40px 40px;
+    padding:60px 40px 40px 40px;
     margin:45px 0;
 }
 
@@ -1492,6 +1509,14 @@ font-family: 'Merriweather', serif;
     padding-bottom: 35px;
     position: relative;
 }
+
+.step-process > .row {
+	max-width: 83em;
+}
+@media (min-width: 768px){
+.step-process .align-left { margin-left: 50px;}
+.step-process .align-right { margin-right: 35px;}
+}
 .step-process ul {
     list-style: none;
     margin-left:0;
@@ -1502,7 +1527,7 @@ font-family: 'Merriweather', serif;
     float: left;
     font-size: 14px;
     position: relative;
-    width: 15%;
+    width: 16.666%;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
@@ -1528,7 +1553,7 @@ font-family: 'Merriweather', serif;
     width: 100%;
     z-index: -1;
 }
-
+.step-process ul .first + li.active i ,.step-process ul .last.active i {left: -16%}
 .step-process ul li:first-child::after {content: none;}
 .step-process ul li.active::before,
 .step-process ul li.active::after {background: #f26522;}
@@ -1581,6 +1606,30 @@ border-width: 8px 7px 0 7px;
 border-color: #fff transparent transparent transparent;
 }
 .logged > *{display: inline-block!important;}
+.quote .author,.quote .position {
+	margin-left: 45px;
+}
+.mgt-3  label{margin-top: -3px!important;}
+.step-process ul li.first span,.step-process ul li.last span  {
+	 background: #666766 ;
+    content: "";
+    height: 2px;
+    position: absolute;
+    right: -50%;
+    top: 7px;
+    width: 50%;
+}
+.step-process ul li.first + .active:before {
+	background: #666766!important;
+
+}
+.step-process ul li.last span  {
+	right: 50%;
+}
+.step-process ul li.last.active:before {
+ background: #666766
+}
+.step-process ul li.active:first-child i {left: 46%;}
 /*************** responsive **********/
 @media only screen and (max-width: 1024px) { 
     .title-events {margin-left: 22px;}
@@ -1603,6 +1652,9 @@ border-color: #fff transparent transparent transparent;
     .block-sign-up {background-size: cover;}
 }
 @media only screen and (max-width:769px) {
+	.feature-campaign .panel ul li {
+		width: 26%;
+	}
     .top-bar .toggle-topbar a {color:#118dd6; font-size:46px;}
     .top-bar.expanded .title-area {
         background: none;
@@ -1660,6 +1712,13 @@ border-color: #fff transparent transparent transparent;
     .btn-save {float:right;}
     .upload-thumb {font-size: 12px;}
     .order-column {height: 150px;}
+	.feature-campaign .panel ul li {float: none;display: inline-block;}
+	.feature-campaign .panel ul {text-align: center;}
+}
+@media only screen and (min-width: 768px) {
+.btn-prev,.btn-save  {	width: auto;}
+.text-right {text-align: right}
+.btn-save{ 	margin: 20px 22px 20px 30px; }
 }
 @media only screen and (max-width: 768px) and (min-width:640px) {
     .feature-campaign .row .medium-3,.block-post .row .medium-4,.block-post  .medium-9,.block-post  .medium-3 {width:100%;}
