@@ -1393,7 +1393,7 @@ font-family: 'Merriweather', serif;
 .block-help-05 {top:995px;}
 .upload-thumb {
     background: #fff;
-    border: 1px dotted #a1a1a1;
+    border: 1px dashed #a1a1a1;
     display: block;
     font-family: "Open Sans",sans-serif;
     font-size: 13px;
@@ -1405,6 +1405,7 @@ font-family: 'Merriweather', serif;
     text-align: center;
     width: 100%;
 }
+
 .ico-thumb {
     background: url('../img/ico-sprites.png') no-repeat -88px -121px;
     height: 42px;
@@ -1544,6 +1545,42 @@ font-family: 'Merriweather', serif;
 .pagination li {height: auto !important;}
 .pagination li a{color:#333!important;margin-left: 0;font-size: 12px;font-family: 'Open Sans', sans-serif;font-weight: 600!important;border-radius: 0px !important}
 .pagination li.active a {border:1px solid #a1a1a1;background: #fff;}
+.search-input {position: relative}
+.search-input input {
+	padding-right: 28px;
+}
+.search-input .search-button{
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	color: #4d4d4d;
+	cursor: pointer;
+}
+
+.check-term-row {
+	text-align: center; 
+	margin-bottom: 20px;
+    margin-top: 8px;
+}
+  .step-hold-on form .check-term-row .has-pretty-child .labelright {
+	float: none;
+	margin: -2px;
+  }
+.logged  > * {
+	display: inline-block;
+	vertical-align: middle;
+	text-transform: capitalize!important;
+}
+
+.arrow-down {
+width: 0;
+
+height: 0;
+border-style: solid;
+border-width: 8px 7px 0 7px;
+border-color: #fff transparent transparent transparent;
+}
+.logged > *{display: inline-block!important;}
 /*************** responsive **********/
 @media only screen and (max-width: 1024px) { 
     .title-events {margin-left: 22px;}
