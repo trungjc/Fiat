@@ -8,19 +8,19 @@ font-family: 'Merriweather', serif;
 
 /************* style home **************/
 ::-webkit-input-placeholder {
-  color: #4d4d4d;
+    color: #4d4d4d;
 }
 ::-moz-placeholder { /* Firefox 19+ */
-  color: #4d4d4d;
+    color: #4d4d4d;
 }
 :-ms-input-placeholder {
-  color: #4d4d4d;
+    color: #4d4d4d;
 }
 :-moz-placeholder ,select{ /* Firefox 18- */
-  color: #4d4d4d;
+    color: #4d4d4d;
 }
 .frm-comment input ,.frm-comment textarea{
-	text-transform: uppercase;
+    text-transform: uppercase;
 }
 .bar-top {
     background:#008fd0;
@@ -141,7 +141,7 @@ font-family: 'Merriweather', serif;
 .feature-campaign .panel ul {
     background: #e6e6e6;
     padding:8px 0px 5px 0px;
-	text-align: center;
+    text-align: center;
 }
 
 .feature-campaign .panel ul li {
@@ -151,17 +151,17 @@ font-family: 'Merriweather', serif;
     margin-left: 10px;
     margin-right: 10px;
     text-align: center;
-	line-height: 18px;
+    line-height: 18px;
 }
 .feature-campaign .panel .inline-list br {
-	line-height: 0;
+    line-height: 0;
 }
 .feature-campaign .panel ul li span {
     font-size: 17px;
     font-weight: bold;
     color: #008fd0;
     font-style: normal;
-	padding-left:0;
+    padding-left:0;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -201,7 +201,7 @@ font-family: 'Merriweather', serif;
 .item-campaign .info-item-campaign p span {font-size:12px;color:#fff;}
 .item-campaign .info-item-campaign p b {font-size:26px;font-weight: 600}
 .item-campaign .intro-img {
-	display: block;
+    display: block;
 }
 
 .ico-atom {
@@ -812,7 +812,7 @@ font-family: 'Merriweather', serif;
     background: #e6e6e6;
     margin-top: 60px;
     margin-bottom: 40px;
-	padding: 40px;
+    padding: 40px;
 }
 .info-project-leader h3 {color: #333;padding:10px;font-size: 18px;}
 .info-project-leader h3 i{color: #333;font-size: 23px;margin-right:5px;}
@@ -1129,7 +1129,7 @@ font-family: 'Merriweather', serif;
     padding-top: 45px;
 }
 .inner-post p {
-	margin-bottom:10px;
+    margin-bottom:10px;
 }
 .frm-comment input[type="text"],.frm-comment textarea{
     box-shadow: none;
@@ -1504,67 +1504,12 @@ font-family: 'Merriweather', serif;
 
 .step-process {
     background: #e6e6e6;
-    z-index: -2;
     padding-top: 75px;
     padding-bottom: 35px;
-    position: relative;
 }
 
 .step-process > .row {
-	max-width: 83em;
-}
-@media (min-width: 768px){
-.step-process .align-left { margin-left: 50px;}
-.step-process .align-right { margin-right: 35px;}
-}
-.step-process ul {
-    list-style: none;
-    margin-left:0;
-}
-
-.step-process ul li {
-    color: #666766;
-    float: left;
-    font-size: 14px;
-    position: relative;
-    width: 16.666%;
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-}
-.step-process ul li::before {
-    background: #666766;
-    border-radius: 50%;
-    color: #333;
-    content: counter(decimal);
-    display: block;
-    font-size: 0px;
-    line-height: 14px;
-    margin: 0 auto 5px;
-    width: 14px;
-}
-.step-process ul li::after {
-    background: #666766;
-    content: "";
-    height: 2px;
-    left: -50%;
-    position: absolute;
-    top: 7px;
-    width: 100%;
-    z-index: -1;
-}
-.step-process ul .first + li.active i ,.step-process ul .last.active i {left: -16%}
-.step-process ul li:first-child::after {content: none;}
-.step-process ul li.active::before,
-.step-process ul li.active::after {background: #f26522;}
-.step-process ul li.active i {
-    background: url('../img/ico-sprites.png') no-repeat -151px -119px;
-    width: 56px;
-    height: 34px;
-    display: block;
-    position: absolute;
-    left:35%;
-    top:-45px;
+    max-width: 83em;
 }
 .pagination {margin-left: 0;}
 .pagination li {height: auto !important;}
@@ -1572,64 +1517,116 @@ font-family: 'Merriweather', serif;
 .pagination li.active a {border:1px solid #a1a1a1;background: #fff;}
 .search-input {position: relative}
 .search-input input {
-	padding-right: 28px;
+    padding-right: 28px;
 }
 .search-input .search-button{
-	position: absolute;
-	top: 5px;
-	right: 10px;
-	color: #4d4d4d;
-	cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    color: #4d4d4d;
+    cursor: pointer;
 }
 
 .check-term-row {
-	text-align: center; 
-	margin-bottom: 20px;
+    text-align: center; 
+    margin-bottom: 20px;
     margin-top: 8px;
 }
-  .step-hold-on form .check-term-row .has-pretty-child .labelright {
-	float: none;
-	margin: -2px;
-  }
+.step-hold-on form .check-term-row .has-pretty-child .labelright {
+    float: none;
+    margin: -2px;
+}
 .logged  > * {
-	display: inline-block;
-	vertical-align: middle;
-	text-transform: capitalize!important;
+    display: inline-block;
+    vertical-align: middle;
+    text-transform: capitalize!important;
 }
 
 .arrow-down {
-width: 0;
+    width: 0;
 
-height: 0;
-border-style: solid;
-border-width: 8px 7px 0 7px;
-border-color: #fff transparent transparent transparent;
+    height: 0;
+    border-style: solid;
+    border-width: 8px 7px 0 7px;
+    border-color: #fff transparent transparent transparent;
 }
 .logged > *{display: inline-block!important;}
 .quote .author,.quote .position {
-	margin-left: 45px;
+    margin-left: 45px;
 }
 .mgt-3  label{margin-top: -3px!important;}
-.step-process ul li.first span,.step-process ul li.last span  {
-	 background: #666766 ;
-    content: "";
-    height: 2px;
-    position: absolute;
-    right: -50%;
-    top: 7px;
-    width: 50%;
+.process {
+    background: #e6e6e6;
+    padding-bottom: 60px;
+    padding-top: 70px;
 }
-.step-process ul li.first + .active:before {
-	background: #666766!important;
+.wrap-step {
+    position: relative;
+    width: 100%;
+}
+
+.process-bar {
+    position: absolute;
+    height: 2px;
+    background: #666766;
+    width: 100%;
+    top:0;
+    left: 0;
+}
+.active-step {
+    position: absolute;
+    top:0;
+    left: 0;
+    background: #f26522;
+    height: 2px;
+}
+.point-process-01,
+.point-process-02,
+.point-process-03,
+.point-process-04,
+.point-process-05,
+.point-process-06 {
+    background: #666766;
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    top:-7px;
 
 }
-.step-process ul li.last span  {
-	right: 50%;
+.active-item {
+    background: url('../img/ico-sprites.png') no-repeat -151px -119px;
+    width: 56px;
+    height: 34px;
+    display: block;
+    position: absolute;
+    left:0;
+    top:-45px;
 }
-.step-process ul li.last.active:before {
- background: #666766
+.point-process-01 span,
+.point-process-02 span,
+.point-process-03 span,
+.point-process-04 span,
+.point-process-05 span,
+.point-process-06 span {
+    position: absolute;
+    top:20px;
+    left:-14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #666766;
 }
-.step-process ul li.active:first-child i {left: 46%;}
+.point-process-01 span {left:0;}
+.point-process-06 span {left:-36px;}
+.point-process-01 {left: 0}
+.point-process-02 {left: 20%}
+.point-process-03 {left: 40%}
+.point-process-04 {left: 60%}
+.point-process-05 {left: 80%}
+.point-process-06 {left: 100%}
+
+.wrap-step .active { background: #f26522;}
 /*************** responsive **********/
 @media only screen and (max-width: 1024px) { 
     .title-events {margin-left: 22px;}
@@ -1652,9 +1649,9 @@ border-color: #fff transparent transparent transparent;
     .block-sign-up {background-size: cover;}
 }
 @media only screen and (max-width:769px) {
-	.feature-campaign .panel ul li {
-		width: 26%;
-	}
+    .feature-campaign .panel ul li {
+        width: 26%;
+    }
     .top-bar .toggle-topbar a {color:#118dd6; font-size:46px;}
     .top-bar.expanded .title-area {
         background: none;
@@ -1712,13 +1709,13 @@ border-color: #fff transparent transparent transparent;
     .btn-save {float:right;}
     .upload-thumb {font-size: 12px;}
     .order-column {height: 150px;}
-	.feature-campaign .panel ul li {float: none;display: inline-block;}
-	.feature-campaign .panel ul {text-align: center;}
+    .feature-campaign .panel ul li {float: none;display: inline-block;}
+    .feature-campaign .panel ul {text-align: center;}
 }
 @media only screen and (min-width: 768px) {
-.btn-prev,.btn-save  {	width: auto;}
-.text-right {text-align: right}
-.btn-save{ 	margin: 20px 22px 20px 30px; }
+    .btn-prev,.btn-save  {	width: auto;}
+    .text-right {text-align: right}
+    .btn-save{ 	margin: 20px 22px 20px 30px; }
 }
 @media only screen and (max-width: 768px) and (min-width:640px) {
     .feature-campaign .row .medium-3,.block-post .row .medium-4,.block-post  .medium-9,.block-post  .medium-3 {width:100%;}
@@ -1735,17 +1732,24 @@ border-color: #fff transparent transparent transparent;
     .bar-top .list-top li a {font-size:14px;}
     .post-share ul {float:none;}
     .link-category {margin-bottom: 17px;margin-left:2px;}
-    .step-process ul li{width: 16%;}
-    .step-process ul li.active i {left: 20%;}
 }
 @media only screen and (max-width: 480px) {
     .block-checkout .step .list-avatar li {
         margin-bottom: 20px;
         width: 100%;
     }
+    .point-process-01 span, 
+    .point-process-02 span, 
+    .point-process-03 span, 
+    .point-process-04 span, 
+    .point-process-05 span, 
+    .point-process-06 span {
+        font-size: 11px;
+        font-weight: 100;
+    }
+    .point-process-06 span {left: -26px;}
 }
 @media only screen and (max-width:360px) {
-     .step-process ul li.active i {left: 0%;}
     .block-comment ul li ul {
         clear: both;
     }
@@ -1757,7 +1761,6 @@ border-color: #fff transparent transparent transparent;
     .btn-return, .btn-prev {margin-left: 12px;}
     .frm-diy-campaign .row .prettyradio label {width: 85%;}
     .row-quantity .has-pretty-child .labelright label { width: 89%;}
-    .step-process ul li {font-size: 11px; font-weight: 100;}
 }
 @media only screen and (max-width: 320px) {
     .block-quote ul li {
@@ -1785,4 +1788,5 @@ border-color: #fff transparent transparent transparent;
     .step-hold-on form .link {font-size:11px;}
     .step-wellcome h3, .step-hold-on h3 { font-size: 27px;}
     .btn-prev i, .btn-save i {display: block;}
+    .point-process-02 span {left: -6px;}
 }
