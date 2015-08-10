@@ -1624,7 +1624,7 @@ font-family: 'Merriweather', serif;
 .point-process-03 {left: 40%}
 .point-process-04 {left: 60%}
 .point-process-05 {left: 80%}
-.point-process-06 {left: 100%}
+.point-process-06 {left: auto;right: 0;}
 
 .wrap-step .active { background: #f26522;}
 a.text-underline {text-decoration: underline}
@@ -1639,6 +1639,15 @@ a.text-underline:hover {text-decoration: none}
 }
 .add-new-reward:hover {color:#fff;background: rgba(0,143,208,0.8)}
 .add-new-reward i {margin-right:5px;}
+
+@media only screen and (min-width: 1095px) {
+    .large-4.large-offset-1.columns.action-button {
+        padding-right: 1.375em;
+        text-align: right;
+    }
+    .action-button .button  + .button {margin-left: 20px}
+.action-button .button {max-width: 160px;}
+}
 
 /*************** responsive **********/
 @media only screen and (max-width: 1024px) { 
@@ -1672,6 +1681,9 @@ a.text-underline:hover {text-decoration: none}
     .title-img-preview,.title-video-preview {clear: both;}
 }
 @media only screen and (max-width:769px) {
+    .top-bar .toggle-topbar a {
+        padding: 0;
+    }
     .feature-campaign .panel ul li {
         width: 26%;
     }
@@ -1737,6 +1749,14 @@ a.text-underline:hover {text-decoration: none}
     .feature-campaign .row .medium-3,.block-post .row .medium-4,.block-post  .medium-9,.block-post  .medium-3 {width:100%;}
     .feature-campaign img,.block-post img{width: 100%;}
     .footer {height: auto;}
+    .action-button .button,.btn-return, .btn-continue, .btn-prev, .btn-save {
+        display: block;
+    float: none;
+    margin: 22px !important;
+    max-width: none;
+    width: auto!important;
+    }
+    .large-4.large-offset-1.columns.action-button {padding-right: 0}
 }
 @media only screen and (max-width: 640px) {
     .block-campaign,.block-events {height: auto;padding-bottom: 20px;}
@@ -1748,6 +1768,14 @@ a.text-underline:hover {text-decoration: none}
     .bar-top .list-top li a {font-size:14px;}
     .post-share ul {float:none;}
     .link-category {margin-bottom: 17px;margin-left:2px;}
+     .action-button .button,.btn-return, .btn-continue, .btn-prev, .btn-save {
+        display: block;
+    float: none;
+    margin: 22px !important;
+    max-width: none;
+    width: auto!important;
+    }
+    .large-4.large-offset-1.columns.action-button {padding-right: 0}
 }
 @media only screen and (max-width: 480px) {
     .btn-return, .btn-continue, .btn-prev, .btn-save {font-size: 13px;}
@@ -1765,7 +1793,9 @@ a.text-underline:hover {text-decoration: none}
         font-size: 11px;
         font-weight: 100;
     }
-    .point-process-06 span {left: -26px;}
+    .point-process-06 span {left: -10px;}
+    .point-process-01 span {left: -16px;}
+
 }
 @media only screen and (max-width:375px) {
     .btn-return {margin-right:15px;}
