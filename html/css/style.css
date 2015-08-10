@@ -1404,7 +1404,7 @@ font-family: 'Merriweather', serif;
 .block-help a {color: #008fd0}
 .block-help p {margin-bottom: 10px;}
 .block-help-01 {top:120px;}
-.block-help-02 {top:375px;}
+.block-help-02 {top:363px;}
 .block-help-03 {top:611px;}
 .block-help-04 {top:965px;}
 .block-help-05 {top:995px;}
@@ -1627,6 +1627,19 @@ font-family: 'Merriweather', serif;
 .point-process-06 {left: 100%}
 
 .wrap-step .active { background: #f26522;}
+a.text-underline {text-decoration: underline}
+a.text-underline:hover {text-decoration: none}
+.add-new-reward {
+    margin:20px 0;
+    padding: 10px 30px;
+    color: #fff;
+    font-size: 14px;
+    background: #008fd0;
+    display: inline-block;
+}
+.add-new-reward:hover {color:#fff;background: rgba(0,143,208,0.8)}
+.add-new-reward i {margin-right:5px;}
+
 /*************** responsive **********/
 @media only screen and (max-width: 1024px) { 
     .title-events {margin-left: 22px;}
