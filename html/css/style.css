@@ -1383,7 +1383,7 @@ font-family: 'Merriweather', serif;
 .title-video-preview {margin-top:40px;float:left;}
 .btn-return {margin-right: 30px;}
 .btn-continue{background: #f26522;float:right;}
-.btn-prev,.btn-save {font-size: 14px;}
+.btn-prev,.btn-save {font-size: 14px;padding-top: 7px;padding-bottom: 8px;}
 .btn-prev i,.btn-save i{font-size: 20px;margin-right: 5px;}
 .block-help::before {
     right: 100%;
@@ -1660,6 +1660,16 @@ a.text-underline:hover {text-decoration: none}
     }
     .block-post h3 {padding-bottom: 15px;}
     .block-sign-up {background-size: cover;}
+    .frm-diy-campaign .row {margin: 0 0 10px;}
+    .header-diy-campaign h2,.header-diy-campaign p {padding-left: 22px;padding-right:22px;}
+    .block-help, .block-help-01 .block-help-01,.block-help-02,.block-help-03,.block-help-04,.block-help-05 {top:auto;margin-bottom: 10px;}
+    .btn-return, .btn-continue, .btn-prev, .btn-save { width: 42%;}
+    .btn-return, .btn-prev {
+        margin-left: 22px;
+    }
+    .btn-continue, .btn-save {margin-right: 22px;}
+    .btn-save {float:right;}
+    .title-img-preview,.title-video-preview {clear: both;}
 }
 @media only screen and (max-width:769px) {
     .feature-campaign .panel ul li {
@@ -1709,12 +1719,10 @@ a.text-underline:hover {text-decoration: none}
     .step-wellcome ul,.step-hold-on form  {margin-left: 40px;}
     .step-wellcome ul li {width: 100%;clear: both;}
     .step-wellcome ul li p { font-size: 14px;}
-    .frm-diy-campaign .row {margin:0 0 10px 0;}
     .frm-diy-campaign input[type="text"] {margin-top: 0;}
     .frm-diy-campaign .row label {margin-bottom: 5px;}
-    .header-diy-campaign h2,.header-diy-campaign p {padding-left: 22px;padding-right:22px;}
     .block-help {margin-bottom: 10px;}
-    .block-help-01,.block-help-02,.block-help-03,.block-help-04,.block-help-05 {top:auto;margin-bottom: 10px;}
+
     .btn-return, .btn-continue, .btn-prev, .btn-save {width: 42%;font-size: 16px;}
     .btn-return,.btn-prev { margin-left: 22px;}
     .btn-continue,.btn-save { margin-right: 22px;}
@@ -1724,11 +1732,6 @@ a.text-underline:hover {text-decoration: none}
     .order-column {height: 150px;}
     .feature-campaign .panel ul li {float: none;display: inline-block;}
     .feature-campaign .panel ul {text-align: center;}
-}
-@media only screen and (min-width: 768px) {
-    .btn-prev,.btn-save  {	width: auto;}
-    .text-right {text-align: right}
-    .btn-save{ 	margin: 20px 22px 20px 30px; }
 }
 @media only screen and (max-width: 768px) and (min-width:640px) {
     .feature-campaign .row .medium-3,.block-post .row .medium-4,.block-post  .medium-9,.block-post  .medium-3 {width:100%;}
@@ -1747,6 +1750,8 @@ a.text-underline:hover {text-decoration: none}
     .link-category {margin-bottom: 17px;margin-left:2px;}
 }
 @media only screen and (max-width: 480px) {
+    .btn-return, .btn-continue, .btn-prev, .btn-save {font-size: 13px;}
+    .btn-prev, .btn-save {padding-bottom: 5px;padding-top: 4px;}
     .block-checkout .step .list-avatar li {
         margin-bottom: 20px;
         width: 100%;
@@ -1762,6 +1767,12 @@ a.text-underline:hover {text-decoration: none}
     }
     .point-process-06 span {left: -26px;}
 }
+@media only screen and (max-width:375px) {
+    .btn-return {margin-right:15px;}
+    .frm-diy-campaign .row .prettyradio label  {width: 85%;}
+    .btn-return, .btn-prev {margin-left:22px;}
+    .row-quantity .has-pretty-child .labelright label {width: 89%;}
+}
 @media only screen and (max-width:360px) {
     .block-comment ul li ul {
         clear: both;
@@ -1771,9 +1782,6 @@ a.text-underline:hover {text-decoration: none}
     .step-wellcome .button, .step-hold-on .button {padding: 15px 60px;}
     .step-wellcome ul, .step-hold-on form {margin-left: 20px;margin-right:20px;}
     .btn-return, .btn-continue, .btn-prev, .btn-save {width: 40%;font-size: 12px;}
-    .btn-return, .btn-prev {margin-left: 12px;}
-    .frm-diy-campaign .row .prettyradio label {width: 85%;}
-    .row-quantity .has-pretty-child .labelright label { width: 89%;}
 }
 @media only screen and (max-width: 320px) {
     .block-quote ul li {
