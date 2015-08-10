@@ -812,7 +812,7 @@ font-family: 'Merriweather', serif;
     background: #e6e6e6;
     margin-top: 60px;
     margin-bottom: 40px;
-    padding: 40px;
+    padding: 20px;
 }
 .info-project-leader h3 {color: #333;padding:10px;font-size: 18px;}
 .info-project-leader h3 i{color: #333;font-size: 23px;margin-right:5px;}
@@ -1225,6 +1225,15 @@ font-family: 'Merriweather', serif;
     height: 16px;
     display: inline-block;
     margin-bottom: -4px;
+}
+.icon-pie,.icon-risk {
+    background: url('../img/ico-sprites.png') no-repeat -154px -71px;
+    width: 20px;
+    height: 20px;
+    display: inline-block; vertical-align: -4px;
+}
+.icon-risk  {
+    background-position: -182px -71px;
 }
 .block-comment ul li ul {
     margin-left: 16%;
