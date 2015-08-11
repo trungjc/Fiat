@@ -1360,7 +1360,7 @@ font-family: 'Merriweather', serif;
 }
 .header-diy-campaign h2{font-family: 'Merriweather', serif;font-weight: 100;font-size: 30px;color: #4c4b4b;}
 .header-diy-campaign p{font-family: 'Open Sans', sans-serif;font-weight: 100;font-size: 18px}
-.frm-diy-campaign .row {background: #d6d6d6;margin-bottom: 10px;position: relative;}
+.frm-diy-campaign .row {background: #d6d6d6;margin:0 0 10px;position: relative;}
 .frm-diy-campaign input[type="text"] {
     border-color: #a1a1a1;
     box-shadow: none;
@@ -1374,7 +1374,7 @@ font-family: 'Merriweather', serif;
 .frm-diy-campaign .row .prettyradio label{width: 90%;margin-top: -3px;}
 .frm-diy-campaign .row .prettyradio > a{margin: 0 10px 0 0;}
 .frm-diy-campaign .row .has-pretty-child {margin-top:15px;margin-bottom: 10px;}
-.btn-return,.btn-continue,.btn-prev,.btn-save {padding-top:10px;padding-bottom: 10px;background: #a1a1a1;font-family: 'Open Sans', sans-serif;width: 47%;font-size:16px;font-weight: 600;margin-top:20px}
+.btn-return,.btn-continue,.btn-prev,.btn-save {padding-top:10px;padding-bottom: 10px;background: #a1a1a1;font-family: 'Open Sans', sans-serif;width: 46%;font-size:16px;font-weight: 600;margin-top:20px}
 .frm-diy-campaign .row textarea {box-shadow: none;margin-top:20px;height: 120px;border-color:#a1a1a1;}
 .frm-diy-campaign .row .btn-add-video {font-family: 'Open Sans', sans-serif;font-size:13px;font-weight: 600;padding:10px 30px;}
 .frm-diy-campaign .row .btn-add-video i {font-size:15px;margin-right:5px;}
@@ -1678,13 +1678,12 @@ a.text-underline:hover {text-decoration: none}
     .block-post h3 {padding-bottom: 15px;}
     .block-sign-up {background-size: cover;}
     .frm-diy-campaign .row {margin: 0 0 10px;}
-    .header-diy-campaign h2,.header-diy-campaign p {padding-left: 22px;padding-right:22px;}
     .block-help, .block-help-01 .block-help-01,.block-help-02,.block-help-03,.block-help-04,.block-help-05 {top:auto;margin-bottom: 10px;}
     .btn-return, .btn-continue, .btn-prev, .btn-save { width: 42%;}
     .btn-return, .btn-prev {
-        margin-left: 22px;
+        margin-left: 0px;
     }
-    .btn-continue, .btn-save {margin-right: 22px;}
+    .btn-continue, .btn-save {margin-right: 0px;}
     .btn-save {float:right;}
     .title-img-preview,.title-video-preview {clear: both;}
     .order-column a {position: static;}
@@ -1762,7 +1761,7 @@ a.text-underline:hover {text-decoration: none}
     .action-button .button,.btn-return, .btn-continue, .btn-prev, .btn-save {
         display: block;
     float: none;
-    margin: 22px !important;
+    margin: 10px 0 !important;
     max-width: none;
     width: auto!important;
     }
@@ -1781,7 +1780,6 @@ a.text-underline:hover {text-decoration: none}
      .action-button .button,.btn-return, .btn-continue, .btn-prev, .btn-save {
         display: block;
     float: none;
-    margin: 22px !important;
     max-width: none;
     width: auto!important;
     }
@@ -1789,6 +1787,8 @@ a.text-underline:hover {text-decoration: none}
 }
 @media only screen and (max-width: 480px) {
     .btn-return, .btn-continue, .btn-prev, .btn-save {font-size: 13px;}
+    .btn-return, .btn-prev {margin-left:0px;}
+    .btn-continue, .btn-save,.btn-prev,.btn-return {margin-right: 0;}
     .btn-prev, .btn-save {padding-bottom: 5px;padding-top: 4px;}
     .block-checkout .step .list-avatar li {
         margin-bottom: 20px;
@@ -1805,12 +1805,10 @@ a.text-underline:hover {text-decoration: none}
     }
     .point-process-06 span {left: -10px;}
     .point-process-01 span {left: -16px;}
-
+    
 }
 @media only screen and (max-width:375px) {
-    .btn-return {margin-right:15px;}
     .frm-diy-campaign .row .prettyradio label  {width: 85%;}
-    .btn-return, .btn-prev {margin-left:22px;}
     .row-quantity .has-pretty-child .labelright label {width: 89%;}
 }
 @media only screen and (max-width:360px) {
