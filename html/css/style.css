@@ -1360,7 +1360,7 @@ font-family: 'Merriweather', serif;
 }
 .header-diy-campaign h2{font-family: 'Merriweather', serif;font-weight: 100;font-size: 30px;color: #4c4b4b;}
 .header-diy-campaign p{font-family: 'Open Sans', sans-serif;font-weight: 100;font-size: 18px}
-.frm-diy-campaign .row {background: #e6e6e6;margin-bottom: 10px;}
+.frm-diy-campaign .row {background: #d6d6d6;margin-bottom: 10px;position: relative;}
 .frm-diy-campaign input[type="text"] {
     border-color: #a1a1a1;
     box-shadow: none;
@@ -1388,7 +1388,8 @@ font-family: 'Merriweather', serif;
 }
 .note-inner-frm {width: 80%;font-family: 'Open Sans', sans-serif;font-size:13px;font-weight: 400;}
 .note-inner-frm small {font-size: 12px;}
-.inner-frm {padding-top:10px;}
+.inner-frm {padding-top:10px;background: #e6e6e6;}
+.inner-frm .row{background: #e6e6e6;}
 .title-video-preview {margin-top:40px;float:left;}
 .btn-return {margin-right: 30px;}
 .btn-continue{background: #f26522;float:right;}
@@ -1464,9 +1465,7 @@ font-family: 'Merriweather', serif;
     margin-bottom: 10px;
 }
 .order-column {
-    background: #d6d6d6;
-    height: 429px;
-    position: relative;
+    position: static;
     font-family: "Open Sans",sans-serif;
     color:#484848;
     font-size: 14px;
@@ -1688,8 +1687,10 @@ a.text-underline:hover {text-decoration: none}
     .btn-continue, .btn-save {margin-right: 22px;}
     .btn-save {float:right;}
     .title-img-preview,.title-video-preview {clear: both;}
+    .order-column a {position: static;}
 }
 @media only screen and (max-width:769px) {
+    
     .top-bar .toggle-topbar a {
         padding: 0;
     }
