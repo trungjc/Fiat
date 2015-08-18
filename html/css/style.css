@@ -1647,6 +1647,61 @@ a.text-underline:hover {text-decoration: none}
 }
 .add-new-reward:hover {color:#fff;background: rgba(0,143,208,0.8)}
 .add-new-reward i {margin-right:5px;}
+/********************* forgot password *****************/
+.wrap-forgotpw {
+    background: #e6e6e6;
+    padding:120px 0px 130px 0;
+}
+.wrap-forgotpw h3 {
+    color: #525252;
+    font-family: "Work Sans",sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 35px;
+    margin-bottom: 30px;
+}
+.wrap-forgotpw p {
+    font-family: "Open Sans",sans-serif;
+    font-weight: 300;
+    color:#666;
+    font-size:13px;
+}
+
+.wrap-forgotpw p a {
+    color:#008fd0;
+    text-decoration: underline;
+    font-size:13px;
+}
+
+.wrap-forgotpw p a:hover {
+    text-decoration: none;
+}
+.wrap-forgotpw .note-fg-pw {
+   color: #666666;
+    font-family: "Open Sans",sans-serif;
+    font-size: 13px;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+.wrap-forgotpw form input[type="text"] {
+    border:1px solid #a1a1a1;
+    box-shadow: none;
+}
+.wrap-forgotpw form .btn-send-rs {
+    background: #008fd0;
+    width: 100%;
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+    padding:8px 0;
+}
+
+#frm-login {
+     background: #e6e6e6;
+    padding: 80px;
+    width: 470px;
+}
 
 @media only screen and (min-width: 1095px) {
     .large-4.large-offset-1.columns.action-button {
